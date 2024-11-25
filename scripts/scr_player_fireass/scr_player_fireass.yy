@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_player_fireass",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_player_fireass",
+  "parent":{
+    "name":"transformations",
+    "path":"folders/Scripts/player_states/transformations.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

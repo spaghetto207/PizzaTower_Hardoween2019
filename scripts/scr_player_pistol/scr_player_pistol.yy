@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_player_pistol",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_player_pistol",
+  "parent":{
+    "name":"player_states",
+    "path":"folders/Scripts/player_states.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

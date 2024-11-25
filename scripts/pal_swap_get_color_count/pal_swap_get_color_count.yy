@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pal_swap_get_color_count",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"pal_swap_get_color_count",
+  "parent":{
+    "name":"palette",
+    "path":"folders/Scripts/palette.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

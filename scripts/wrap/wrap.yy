@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"wrap",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"wrap",
+  "parent":{
+    "name":"palette",
+    "path":"folders/Scripts/palette.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
