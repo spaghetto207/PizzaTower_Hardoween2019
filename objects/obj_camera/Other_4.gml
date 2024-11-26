@@ -1,5 +1,5 @@
-x = obj_player1.x;
-y = obj_player1.y;
+x = target.x;
+y = target.y;
 
 with (obj_camera)
 {

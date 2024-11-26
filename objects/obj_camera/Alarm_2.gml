@@ -2,7 +2,7 @@ if (global.seconds == 0 && global.minutes == 0)
     alarm[2] = 3;
 
 if (global.collect > 0)
-    instance_create(obj_player.x, obj_player.y, obj_pizzaloss);
+    instance_create(target.x, target.y, obj_pizzaloss);
 
 if (global.collect > 0)
     global.collect -= 5;

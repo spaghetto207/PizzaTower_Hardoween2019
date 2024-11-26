@@ -6,7 +6,7 @@ function scr_player_pizzathrow()
 	xscale = -1;
 	jumpstop = 0;
 	
-	if (global.shroomfollow == 0 && global.cheesefollow == 0 && global.tomatofollow == 0 && global.sausagefollow == 0 && global.pineapplefollow == 0)
+	if (global.shroomfollow == false && global.cheesefollow == false && global.tomatofollow == false && global.sausagefollow == false && global.pineapplefollow == false)
 	{
 	    state = states.normal;
 	    landAnim = 0;
@@ -14,7 +14,7 @@ function scr_player_pizzathrow()
 	    image_index = 0;
 	}
 	
-	if ((global.shroomfollow == 1 || global.cheesefollow == 1 || global.tomatofollow == 1 || global.sausagefollow == 1 || global.pineapplefollow == 1) && !instance_exists(obj_toppinsacrifice))
+	if ((global.shroomfollow == true || global.cheesefollow == true || global.tomatofollow == true || global.sausagefollow == true || global.pineapplefollow == true) && !instance_exists(obj_toppinsacrifice))
 	{
 	    instance_create(x, y - 75, obj_toppinsacrifice);
 	    sprite_index = spr_player_pizzathrow;

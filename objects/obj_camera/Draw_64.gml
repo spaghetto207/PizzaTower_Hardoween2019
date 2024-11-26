@@ -1,86 +1,86 @@
-pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0);
+pal_swap_set(target.spr_palette, target.paletteselect, 0);
 
-if (obj_player.backupweapon == 1)
+if (target.backupweapon == 1)
     draw_sprite_ext(spr_shotgunbackup, -1, 50, 100, 1, 1, 1, c_white, alpha);
 
-if (obj_player.state != states.gameover)
+if (target.state != states.gameover)
 {
-    if (obj_player.character == "P")
+    if (target.character == "P")
     {
-        if (obj_player.sprite_index == spr_knightpep_thunder)
+        if (target.sprite_index == spr_knightpep_thunder)
             draw_sprite_ext(spr_pepinoHUDthunder, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index != spr_knightpep_start && (obj_player.state == states.knightpep || obj_player.state == states.knightpepslopes))
+        else if (target.sprite_index != spr_knightpep_start && (target.state == states.knightpep || target.state == states.knightpepslopes))
             draw_sprite_ext(spr_pepinoHUDknight, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == spr_bombpep_end)
+        else if (target.sprite_index == spr_bombpep_end)
             draw_sprite_ext(spr_pepinoHUDbombend, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (instance_exists(obj_itspizzatime) || obj_player.sprite_index == spr_bombpep_intro || obj_player.sprite_index == spr_bombpep_runabouttoexplode || obj_player.sprite_index == spr_bombpep_run || obj_player.sprite_index == spr_player_fireass)
+        else if (instance_exists(obj_itspizzatime) || target.sprite_index == spr_bombpep_intro || target.sprite_index == spr_bombpep_runabouttoexplode || target.sprite_index == spr_bombpep_run || target.sprite_index == spr_player_fireass)
             draw_sprite_ext(spr_pepinoHUDscream, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.Sjumpland || (obj_player.state == states.freefallland && shake_mag > 0))
+        else if (target.state == states.Sjumpland || (target.state == states.freefallland && shake_mag > 0))
             draw_sprite_ext(spr_pepinoHUDstun, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == spr_player_victory || obj_player.state == states.keyget || obj_player.state == states.smirk || obj_player.state == states.gottreasure || (obj_player.state == states.bossintro && obj_player.sprite_index == spr_player_levelcomplete))
+        else if (target.sprite_index == spr_player_victory || target.state == states.keyget || target.state == states.smirk || target.state == states.gottreasure || (target.state == states.bossintro && target.sprite_index == spr_player_levelcomplete))
             draw_sprite_ext(spr_pepinoHUDhappy, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == spr_player_machroll || obj_player.sprite_index == spr_player_tumble)
+        else if (target.sprite_index == spr_player_machroll || target.sprite_index == spr_player_tumble)
             draw_sprite_ext(spr_pepinoHUDrolling, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (global.combo >= 3)
             draw_sprite_ext(spr_pepinoHUDmenacing, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach1 || obj_player.state == states.chainsaw || obj_player.state == states.freefallprep || obj_player.state == states.freefall || obj_player.state == states.tackle || obj_player.state == states.Sjump || obj_player.state == states.slam || obj_player.state == states.Sjumpprep || obj_player.state == states.grab || obj_player.state == states.punch || obj_player.state == states.backbreaker || obj_player.state == states.backkick || obj_player.state == states.uppunch || obj_player.state == states.shoulder)
+        else if (target.state == states.mach1 || target.state == states.chainsaw || target.state == states.freefallprep || target.state == states.freefall || target.state == states.tackle || target.state == states.Sjump || target.state == states.slam || target.state == states.Sjumpprep || target.state == states.grab || target.state == states.punch || target.state == states.backbreaker || target.state == states.backkick || target.state == states.uppunch || target.state == states.shoulder)
             draw_sprite_ext(spr_pepinoHUDmach1, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach2 || obj_player.sprite_index == spr_player_dive || obj_player.sprite_index == spr_player_machslideboost || obj_player.state == states.climbwall || obj_player.state == states.handstandjump || obj_player.state == states.superslam)
+        else if (target.state == states.mach2 || target.sprite_index == spr_player_dive || target.sprite_index == spr_player_machslideboost || target.state == states.climbwall || target.state == states.handstandjump || target.state == states.superslam)
             draw_sprite_ext(spr_pepinoHUDmach2, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach3 && obj_player.sprite_index == spr_player_crazyrun)
+        else if (target.state == states.mach3 && target.sprite_index == spr_player_crazyrun)
             draw_sprite_ext(spr_pepinoHUDmach4, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach3 || obj_player.sprite_index == spr_player_machslideboost3)
+        else if (target.state == states.mach3 || target.sprite_index == spr_player_machslideboost3)
             draw_sprite_ext(spr_pepinoHUDmach3, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.hurt || obj_player.sprite_index == spr_bombpep_end || obj_player.sprite_index == spr_player_fireassend || obj_player.state == states.timesup || obj_player.state == states.bombpep || (obj_player.state == states.bossintro && obj_player.sprite_index == spr_player_bossintro) || (obj_player.state == states.bossintro && obj_player.sprite_index == spr_player_idle))
+        else if (target.state == states.hurt || target.sprite_index == spr_bombpep_end || target.sprite_index == spr_player_fireassend || target.state == states.timesup || target.state == states.bombpep || (target.state == states.bossintro && target.sprite_index == spr_player_bossintro) || (target.state == states.bossintro && target.sprite_index == spr_player_idle))
             draw_sprite_ext(spr_pepinoHUDhurt, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.angry == 1)
+        else if (target.angry == 1)
             draw_sprite_ext(spr_pepinoHUD3hp, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == spr_player_hurtidle || obj_player.sprite_index == spr_player_hurtwalk)
+        else if (target.sprite_index == spr_player_hurtidle || target.sprite_index == spr_player_hurtwalk)
             draw_sprite_ext(spr_pepinoHUD1hp, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (global.panic == true || global.snickchallenge == true)
             draw_sprite_ext(spr_pepinoHUDpanic, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == spr_shotgun_pullout)
+        else if (target.sprite_index == spr_shotgun_pullout)
             draw_sprite_ext(spr_pepinoHUDmenacing, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else
             draw_sprite_ext(spr_pepinoHUD, -1, 125, 100, 1, 1, 1, c_white, alpha);
     }
     
-    if (obj_player.character == "S")
+    if (target.character == "S")
         draw_sprite_ext(spr_snickHUD, -1, 125, 60, 1, 1, 1, c_white, alpha);
     
-    if (obj_player.character == "N")
+    if (target.character == "N")
     {
-        if (obj_player.sprite_index == obj_player.spr_knightpepthunder)
+        if (target.sprite_index == target.spr_knightpepthunder)
             draw_sprite_ext(spr_noiseHUD_thunder, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index != obj_player.spr_knightpepstart && (obj_player.state == states.knightpep || obj_player.state == states.knightpepslopes))
+        else if (target.sprite_index != target.spr_knightpepstart && (target.state == states.knightpep || target.state == states.knightpepslopes))
             draw_sprite_ext(spr_noiseHUD_knight, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == obj_player.spr_bombpepend)
+        else if (target.sprite_index == target.spr_bombpepend)
             draw_sprite_ext(spr_noiseHUD_bomb, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (instance_exists(obj_itspizzatime) || obj_player.sprite_index == obj_player.spr_bombpepintro || obj_player.sprite_index == obj_player.spr_bombpeprunabouttoexplode || obj_player.sprite_index == obj_player.spr_bombpeprun || obj_player.sprite_index == obj_player.spr_fireass)
+        else if (instance_exists(obj_itspizzatime) || target.sprite_index == target.spr_bombpepintro || target.sprite_index == target.spr_bombpeprunabouttoexplode || target.sprite_index == target.spr_bombpeprun || target.sprite_index == target.spr_fireass)
             draw_sprite_ext(spr_noiseHUD_panic, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.Sjumpland || (obj_player.state == states.freefallland && shake_mag > 0))
+        else if (target.state == states.Sjumpland || (target.state == states.freefallland && shake_mag > 0))
             draw_sprite_ext(spr_noiseHUD_groundpound, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == obj_player.spr_victory || obj_player.state == states.keyget || obj_player.state == states.smirk || obj_player.state == states.gottreasure || (obj_player.state == states.bossintro && obj_player.sprite_index == obj_player.spr_player_levelcomplete))
+        else if (target.sprite_index == target.spr_victory || target.state == states.keyget || target.state == states.smirk || target.state == states.gottreasure || (target.state == states.bossintro && target.sprite_index == target.spr_player_levelcomplete))
             draw_sprite_ext(spr_noiseHUD_happy, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (global.combo >= 3)
             draw_sprite_ext(spr_noiseHUD_menacing, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach1 || obj_player.state == states.chainsaw || obj_player.state == states.freefallprep || obj_player.state == states.freefall || obj_player.state == states.tackle || obj_player.state == states.Sjump || obj_player.state == states.slam || obj_player.state == states.Sjumpprep || obj_player.state == states.grab || obj_player.state == states.punch || obj_player.state == states.backbreaker || obj_player.state == states.backkick || obj_player.state == states.uppunch || obj_player.state == states.shoulder)
+        else if (target.state == states.mach1 || target.state == states.chainsaw || target.state == states.freefallprep || target.state == states.freefall || target.state == states.tackle || target.state == states.Sjump || target.state == states.slam || target.state == states.Sjumpprep || target.state == states.grab || target.state == states.punch || target.state == states.backbreaker || target.state == states.backkick || target.state == states.uppunch || target.state == states.shoulder)
             draw_sprite_ext(spr_noiseHUD_mach1, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach2 || obj_player.sprite_index == obj_player.spr_dive || obj_player.sprite_index == obj_player.spr_machslideboost || obj_player.state == states.climbwall || obj_player.state == states.handstandjump || obj_player.state == states.superslam)
+        else if (target.state == states.mach2 || target.sprite_index == target.spr_dive || target.sprite_index == target.spr_machslideboost || target.state == states.climbwall || target.state == states.handstandjump || target.state == states.superslam)
             draw_sprite_ext(spr_noiseHUD_mach2, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach3 && obj_player.sprite_index == obj_player.spr_crazyrun)
+        else if (target.state == states.mach3 && target.sprite_index == target.spr_crazyrun)
             draw_sprite_ext(spr_noiseHUD_crazyrun, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.mach3 || obj_player.sprite_index == obj_player.spr_mach3boost)
+        else if (target.state == states.mach3 || target.sprite_index == target.spr_mach3boost)
             draw_sprite_ext(spr_noiseHUD_mach3, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.state == states.hurt || obj_player.sprite_index == obj_player.spr_bombpepend || obj_player.sprite_index == obj_player.spr_fireassend || obj_player.state == states.timesup || obj_player.state == states.bombpep || (obj_player.state == states.bossintro && obj_player.sprite_index == obj_player.spr_player_bossintro) || (obj_player.state == states.bossintro && obj_player.sprite_index == obj_player.spr_idle))
+        else if (target.state == states.hurt || target.sprite_index == target.spr_bombpepend || target.sprite_index == target.spr_fireassend || target.state == states.timesup || target.state == states.bombpep || (target.state == states.bossintro && target.sprite_index == target.spr_player_bossintro) || (target.state == states.bossintro && target.sprite_index == target.spr_idle))
             draw_sprite_ext(spr_noiseHUD_hurt, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.angry == 1)
+        else if (target.angry == 1)
             draw_sprite_ext(spr_noiseHUD_angry, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == obj_player.spr_hurtidle || obj_player.sprite_index == obj_player.spr_hurtwalk)
+        else if (target.sprite_index == target.spr_hurtidle || target.sprite_index == target.spr_hurtwalk)
             draw_sprite_ext(spr_noiseHUD_lowhealth, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (global.panic == true || global.snickchallenge == true)
             draw_sprite_ext(spr_noiseHUD_panic, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (obj_player.sprite_index == spr_shotgun_pullout)
+        else if (target.sprite_index == spr_shotgun_pullout)
             draw_sprite_ext(spr_noiseHUD_menacing, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else
             draw_sprite_ext(spr_noiseHUD_idle, -1, 125, 100, 1, 1, 1, c_white, alpha);
@@ -88,20 +88,20 @@ if (obj_player.state != states.gameover)
     
     shader_reset();
     
-    if (obj_player.movespeed < 2.4 || !(obj_player.state == states.mach1 || obj_player.state == states.mach2 || obj_player.state == states.mach3 || obj_player.state == states.climbwall || obj_player.state == states.machslide || obj_player.state == states.machroll || obj_player.state == states.handstandjump))
+    if (target.movespeed < 2.4 || !(target.state == states.mach1 || target.state == states.mach2 || target.state == states.mach3 || target.state == states.climbwall || target.state == states.machslide || target.state == states.machroll || target.state == states.handstandjump))
         draw_sprite_ext(spr_speedbar, 0, 125, 140, 1, 1, 1, c_white, alpha);
-    else if (obj_player.movespeed >= 2.4 && obj_player.movespeed < 4.8 && (obj_player.state == states.mach1 || obj_player.state == states.mach2 || obj_player.state == states.mach3 || obj_player.state == states.climbwall || obj_player.state == states.machslide || obj_player.state == states.machroll || obj_player.state == states.handstandjump))
+    else if (target.movespeed >= 2.4 && target.movespeed < 4.8 && (target.state == states.mach1 || target.state == states.mach2 || target.state == states.mach3 || target.state == states.climbwall || target.state == states.machslide || target.state == states.machroll || target.state == states.handstandjump))
         draw_sprite_ext(spr_speedbar, 1, 125, 140, 1, 1, 1, c_white, alpha);
-    else if (obj_player.movespeed >= 4.8 && obj_player.movespeed < 7.2 && (obj_player.state == states.mach1 || obj_player.state == states.mach2 || obj_player.state == states.mach3 || obj_player.state == states.climbwall || obj_player.state == states.machslide || obj_player.state == states.machroll || obj_player.state == states.handstandjump))
+    else if (target.movespeed >= 4.8 && target.movespeed < 7.2 && (target.state == states.mach1 || target.state == states.mach2 || target.state == states.mach3 || target.state == states.climbwall || target.state == states.machslide || target.state == states.machroll || target.state == states.handstandjump))
         draw_sprite_ext(spr_speedbar, 2, 125, 140, 1, 1, 1, c_white, alpha);
-    else if (obj_player.movespeed >= 7.2 && obj_player.movespeed < 9.6 && (obj_player.state == states.mach1 || obj_player.state == states.mach2 || obj_player.state == states.mach3 || obj_player.state == states.climbwall || obj_player.state == states.machslide || obj_player.state == states.machroll || obj_player.state == states.handstandjump))
+    else if (target.movespeed >= 7.2 && target.movespeed < 9.6 && (target.state == states.mach1 || target.state == states.mach2 || target.state == states.mach3 || target.state == states.climbwall || target.state == states.machslide || target.state == states.machroll || target.state == states.handstandjump))
         draw_sprite_ext(spr_speedbar, 3, 125, 140, 1, 1, 1, c_white, alpha);
-    else if (obj_player.movespeed >= 9.6 && obj_player.movespeed < 12 && (obj_player.state == states.mach1 || obj_player.state == states.mach2 || obj_player.state == states.mach3 || obj_player.state == states.climbwall || obj_player.state == states.machslide || obj_player.state == states.machroll || obj_player.state == states.handstandjump))
+    else if (target.movespeed >= 9.6 && target.movespeed < 12 && (target.state == states.mach1 || target.state == states.mach2 || target.state == states.mach3 || target.state == states.climbwall || target.state == states.machslide || target.state == states.machroll || target.state == states.handstandjump))
         draw_sprite_ext(spr_speedbar, 4, 125, 140, 1, 1, 1, c_white, alpha);
-    else if (obj_player.movespeed >= 12 && (obj_player.state == states.mach1 || obj_player.state == states.mach2 || obj_player.state == states.mach3 || obj_player.state == states.climbwall || obj_player.state == states.machslide || obj_player.state == states.machroll || obj_player.state == states.handstandjump))
+    else if (target.movespeed >= 12 && (target.state == states.mach1 || target.state == states.mach2 || target.state == states.mach3 || target.state == states.climbwall || target.state == states.machslide || target.state == states.machroll || target.state == states.handstandjump))
         draw_sprite_ext(spr_speedbarmax, -1, 125, 140, 1, 1, 1, c_white, alpha);
     
-    if (obj_player.y < 200 && obj_player.x < 200)
+    if (target.y < 200 && target.x < 200)
         alpha = 0.5;
     else
         alpha = 1;

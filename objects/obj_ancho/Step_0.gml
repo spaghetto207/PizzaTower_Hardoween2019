@@ -130,4 +130,5 @@ if (obj_player1.baddiegrabbedID == id && obj_player1.state != states.grab && !an
 	ancho_grabbed = true;
 }
 if (ancho_grabbed && (thrown || obj_player1.baddiegrabbedID != id))
-		ancho_grabbed = false;
+	ancho_grabbed = false;
+		

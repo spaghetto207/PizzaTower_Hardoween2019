@@ -578,6 +578,10 @@ if (state == states.boulder)
 if (!step_event)
 {
 	for (var i = 0; i < array_length(step_disable); i++)
+	{
 		instance_activate_object(step_disable[i]);	
+		if (step_disable[i] == obj_music)
+			event_perform_object(obj_music, ev_other, ev_room_start)
+	}
 	step_event = true;
 }

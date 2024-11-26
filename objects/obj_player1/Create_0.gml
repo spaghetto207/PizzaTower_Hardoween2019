@@ -35,11 +35,11 @@ targetRoom = halloween_entrance;
 targetDoor = "A";
 flash = 0;
 global.key_inv = 0;
-global.shroomfollow = 0;
-global.cheesefollow = 0;
-global.tomatofollow = 0;
-global.sausagefollow = 0;
-global.pineapplefollow = 0;
+global.shroomfollow = false;
+global.cheesefollow = false;
+global.tomatofollow = false;
+global.sausagefollow = false;
+global.pineapplefollow = false;
 global.keyget = 0;
 global.collect = 0;
 global.treasure = 0;
@@ -178,7 +178,7 @@ move = 0;
 //ensure player's step event runs first
 step_event = false;
 step_disable = [
-	obj_pause,
+	obj_music, obj_pause,
 	//main menu
 	obj_mainmenuselect, obj_file1, obj_file1, obj_file2, obj_file3
 ];

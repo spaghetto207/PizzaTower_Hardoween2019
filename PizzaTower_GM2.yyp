@@ -409,6 +409,7 @@
     {"id":{"name":"obj_pizzagoblin","path":"objects/obj_pizzagoblin/obj_pizzagoblin.yy",},},
     {"id":{"name":"obj_pizzagoblinbomb","path":"objects/obj_pizzagoblinbomb/obj_pizzagoblinbomb.yy",},},
     {"id":{"name":"obj_pizzakincheese","path":"objects/obj_pizzakincheese/obj_pizzakincheese.yy",},},
+    {"id":{"name":"obj_pizzakinparent","path":"objects/obj_pizzakinparent/obj_pizzakinparent.yy",},},
     {"id":{"name":"obj_pizzakinpineapple","path":"objects/obj_pizzakinpineapple/obj_pizzakinpineapple.yy",},},
     {"id":{"name":"obj_pizzakinsausage","path":"objects/obj_pizzakinsausage/obj_pizzakinsausage.yy",},},
     {"id":{"name":"obj_pizzakinshroom","path":"objects/obj_pizzakinshroom/obj_pizzakinshroom.yy",},},

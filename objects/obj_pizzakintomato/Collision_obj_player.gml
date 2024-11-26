@@ -1,4 +1,4 @@
-if (obj_player.state != states.hurt && global.tomatofollow == 0)
+if (obj_player.state != states.hurt && global.tomatofollow == false)
 {
     global.combotime = 60;
     global.style += 50;
@@ -13,6 +13,6 @@ if (obj_player.state != states.hurt && global.tomatofollow == 0)
     obj_tv.showtext = 1;
     obj_tv.alarm[0] = 150;
     global.toppintotal += 1;
-    global.tomatofollow = 1;
+    global.tomatofollow = true;
     panic = 0;
 }

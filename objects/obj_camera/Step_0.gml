@@ -34,7 +34,7 @@ if (global.seconds > 59)
     global.seconds -= 59;
 }
 
-if ((global.panic == true && global.minutes < 1) || obj_player1.sprite_index == spr_player_timesup)
+if ((global.panic == true && global.minutes < 1) || obj_player.sprite_index == spr_player_timesup)
 {
     shake_mag = 2;
     shake_mag_acc = 3 / room_speed;
@@ -53,18 +53,17 @@ if (shake_mag > 0)
         shake_mag = 0;
 }
 
-if (instance_exists(obj_player1) && obj_player1.state != states.timesup && obj_player1.state != states.gameover)
+if (instance_exists(target) && target.state != states.timesup && target.state != states.gameover)
 {
-    var target = obj_player1;
-	var cam_x = camera_get_view_x(view_camera[0]);
-    var cam_y = camera_get_view_y(view_camera[0]);
+    var cam_x = target.x - (camera_get_view_width(view_camera[0]) / 2);
+    var cam_y = target.y - (camera_get_view_height(view_camera[0]) / 2);
 	
-    if (obj_player1.state == states.mach3 || obj_player1.state == states.machroll)
+    if (target.state == states.mach3 || target.state == states.machroll)
     {
-        if (chargecamera > (obj_player1.xscale * 100))
+        if (chargecamera > (target.xscale * 100))
             chargecamera -= 2;
         
-        if (chargecamera < (obj_player1.xscale * 100))
+        if (chargecamera < (target.xscale * 100))
             chargecamera += 2;
     }
     else
@@ -76,13 +75,12 @@ if (instance_exists(obj_player1) && obj_player1.state != states.timesup && obj_p
             chargecamera += 2;
     }
     
-	cam_x = (target.x - (camera_get_view_width(view_camera[0]) / 2)) + chargecamera;
-    cam_y = target.y - (camera_get_view_height(view_camera[0]) / 2);
+	cam_x += chargecamera;
 	  
     if (shake_mag != 0)
     {
-        cam_x = (target.x - (camera_get_view_width(view_camera[0]) / 2)) + chargecamera;
-        cam_y = (target.y - (camera_get_view_height(view_camera[0]) / 2)) + irandom_range(-shake_mag, shake_mag);
+        cam_x += chargecamera;
+        cam_y += irandom_range(-shake_mag, shake_mag);
     }
 	
     cam_x = clamp(cam_x, 0, room_width - camera_get_view_width(view_camera[0]));

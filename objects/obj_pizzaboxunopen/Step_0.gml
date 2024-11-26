@@ -74,7 +74,7 @@ if (place_meeting(x, y, obj_player) && sprite_index == spr_pizzaboxunopen)
         obj_tv.showtext = 1;
         obj_tv.alarm[0] = 150;
         global.toppintotal += 1;
-        global.shroomfollow = 1;
+        global.shroomfollow = true;
     }
     
     if (content == obj_pizzakincheese)
@@ -98,7 +98,7 @@ if (place_meeting(x, y, obj_player) && sprite_index == spr_pizzaboxunopen)
         obj_tv.showtext = 1;
         obj_tv.alarm[0] = 150;
         global.toppintotal += 1;
-        global.cheesefollow = 1;
+        global.cheesefollow = true;
     }
     
     if (content == obj_pizzakintomato)
@@ -122,7 +122,7 @@ if (place_meeting(x, y, obj_player) && sprite_index == spr_pizzaboxunopen)
         obj_tv.showtext = 1;
         obj_tv.alarm[0] = 150;
         global.toppintotal += 1;
-        global.tomatofollow = 1;
+        global.tomatofollow = true;
     }
     
     if (content == obj_pizzakinsausage)
@@ -146,7 +146,7 @@ if (place_meeting(x, y, obj_player) && sprite_index == spr_pizzaboxunopen)
         obj_tv.showtext = 1;
         obj_tv.alarm[0] = 150;
         global.toppintotal += 1;
-        global.sausagefollow = 1;
+        global.sausagefollow = true;
     }
     
     if (content == obj_pizzakinpineapple)
@@ -173,7 +173,7 @@ if (place_meeting(x, y, obj_player) && sprite_index == spr_pizzaboxunopen)
         obj_tv.showtext = 1;
         obj_tv.alarm[0] = 150;
         global.toppintotal += 1;
-        global.pineapplefollow = 1;
+        global.pineapplefollow = true;
     }
     
     sprite_index = spr_pizzaboxopen;

@@ -86,11 +86,11 @@ function scr_playerreset()
 	    input_buffer_highjump = 8;
 	    flash = 0;
 	    global.key_inv = 0;
-	    global.shroomfollow = 0;
-	    global.cheesefollow = 0;
-	    global.tomatofollow = 0;
-	    global.sausagefollow = 0;
-	    global.pineapplefollow = 0;
+	    global.shroomfollow = false;
+	    global.cheesefollow = false;
+	    global.tomatofollow = false;
+	    global.sausagefollow = false;
+	    global.pineapplefollow = false;
 	    global.keyget = 0;
 	    global.collect = 0;
 	    global.ammo = 0;

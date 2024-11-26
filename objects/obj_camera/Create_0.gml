@@ -20,3 +20,5 @@ global.panicbg = 1;
 global.maxwave = 0;
 global.wave = 0;
 ded = 0;
+
+target = obj_player1;

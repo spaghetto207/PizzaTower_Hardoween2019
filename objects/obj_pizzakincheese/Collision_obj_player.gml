@@ -1,4 +1,4 @@
-if (obj_player.state != states.hurt && global.cheesefollow == 0)
+if (obj_player.state != states.hurt && global.cheesefollow == false)
 {
     global.combotime = 60;
     global.style += 50;
@@ -13,6 +13,6 @@ if (obj_player.state != states.hurt && global.cheesefollow == 0)
     obj_tv.showtext = 1;
     obj_tv.alarm[0] = 150;
     global.toppintotal += 1;
-    global.cheesefollow = 1;
+    global.cheesefollow = true;
     panic = 0;
 }
