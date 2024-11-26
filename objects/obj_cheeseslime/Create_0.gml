@@ -35,5 +35,5 @@ spr_dead = spr_slimedead;
 important = 0;
 heavy = 0;
 depth = 0;
-paletteselect = 1;
+paletteselect = string_letters(room_get_name(room)) == "chateau" ? 1 : 0;
 spr_palette = palette_cheeseslime;

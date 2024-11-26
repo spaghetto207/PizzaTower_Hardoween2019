@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pizzacollect",
-    "path":"sprites/spr_pizzacollect/spr_pizzacollect.yy",
+    "name":"spr_pizzacollect_halloween",
+    "path":"sprites/spr_pizzacollect_halloween/spr_pizzacollect_halloween.yy",
   },
   "spriteMaskId":{
-    "name":"spr_pizzacollect",
-    "path":"sprites/spr_pizzacollect/spr_pizzacollect.yy",
+    "name":"spr_pizzacollect_halloween",
+    "path":"sprites/spr_pizzacollect_halloween/spr_pizzacollect_halloween.yy",
   },
   "visible":true,
 }

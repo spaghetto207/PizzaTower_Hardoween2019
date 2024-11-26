@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_halloweensmallblock",
-    "path":"sprites/spr_halloweensmallblock/spr_halloweensmallblock.yy",
+    "name":"spr_destroyable2",
+    "path":"sprites/spr_destroyable2/spr_destroyable2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

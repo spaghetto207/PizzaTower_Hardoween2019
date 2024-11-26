@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"60f9fb27-be52-4719-b3e5-58f0c2a1ada2","name":"60f9fb27-be52-4719-b3e5-58f0c2a1ada2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b25b3d26-46c1-43b1-bd67-3475a07b6146","name":"b25b3d26-46c1-43b1-bd67-3475a07b6146","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"caf3cdcf-4ec7-4dcd-8434-5fe4f4251f24","name":"caf3cdcf-4ec7-4dcd-8434-5fe4f4251f24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"cddf65ff-14d7-4016-b6f4-efdfe520a1a0","name":"cddf65ff-14d7-4016-b6f4-efdfe520a1a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"07717cbf-09ca-48ec-af68-a463482af9be","blendMode":0,"displayName":"default","isLocked":false,"name":"07717cbf-09ca-48ec-af68-a463482af9be","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d71feea4-d339-4e74-9964-9b861c58eb38","blendMode":0,"displayName":"default","isLocked":false,"name":"d71feea4-d339-4e74-9964-9b861c58eb38","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_medievalcomputer",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"60f9fb27-be52-4719-b3e5-58f0c2a1ada2","path":"sprites/spr_medievalcomputer/spr_medievalcomputer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b1590713-36c6-417e-97b1-a49ceb592782","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"caf3cdcf-4ec7-4dcd-8434-5fe4f4251f24","path":"sprites/spr_medievalcomputer/spr_medievalcomputer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ccf60108-a13f-4ae7-b6ce-61bee6b0ea77","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b25b3d26-46c1-43b1-bd67-3475a07b6146","path":"sprites/spr_medievalcomputer/spr_medievalcomputer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b4390d19-ed7a-44f7-9522-3bac38fc22a4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cddf65ff-14d7-4016-b6f4-efdfe520a1a0","path":"sprites/spr_medievalcomputer/spr_medievalcomputer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"544f746f-bc4f-4200-849f-c6f69840f4f5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -83,7 +83,7 @@
     "yorigin":50,
   },
   "swatchColours":null,
-  "swfPrecision":2.525,
+  "swfPrecision":0.5,
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",

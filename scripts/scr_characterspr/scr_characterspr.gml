@@ -449,5 +449,30 @@ function scr_characterspr()
 	    spr_taunt = spr_snick_taunt;
 	    spr_slipnslide = spr_snick_hurt;
 	    spr_palette = spr_peppalette;
+		
+	    spr_shotgunland = spr_null;
+	    spr_shotgunshoot = spr_null;
+	    spr_shotgunidle = spr_null;
+	    spr_shotgunwalk = spr_null;
+	    spr_shotgunfall = spr_null;
+	    spr_shotgunjump = spr_null;
+	    spr_shotgunjump1 = spr_null;
+	    spr_shotgunjump2 = spr_null;
+	    spr_shotgunjump3 = spr_null;
+	    spr_shotgunpullout = spr_null;
+	    spr_shotgunduck = spr_null;
+	    spr_shotguncrawl = spr_null;
+	    spr_shotgungoduck = spr_null;
+		
+		spr_suplexdash = spr_null;
+		spr_suplexdashjump = spr_null;
+		spr_suplexdashjumpstart = spr_null;
+		
+		spr_mach3boost = spr_null;
+		spr_winding = spr_null;
+		spr_rollgetup = spr_null;
+		spr_facestomp = spr_snick_bodyslamland;
+		spr_freefall = spr_null;
+	    spr_superjumppreplight = spr_snick_superjumplight;
 	}
 }

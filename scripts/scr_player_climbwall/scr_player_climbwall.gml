@@ -13,7 +13,7 @@ function scr_player_climbwall()
 	crouchslideAnim = 1;
 	sprite_index = spr_machclimbwall;
 	
-	if (!key_attack || (move != xscale && move != 0))
+	if ((!key_attack && character != "S") || (move != xscale && move != 0) || (move != xscale && character == "S"))
 	{
 	    state = states.normal;
 	    movespeed = 0;

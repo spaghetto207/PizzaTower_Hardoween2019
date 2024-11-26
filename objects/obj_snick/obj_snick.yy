@@ -35,8 +35,8 @@
     "path":"sprites/spr_snicknpc_idle/spr_snicknpc_idle.yy",
   },
   "spriteMaskId":{
-    "name":"spr_snicknpc_idle",
-    "path":"sprites/spr_snicknpc_idle/spr_snicknpc_idle.yy",
+    "name":"spr_snicknpc_idle_sheets",
+    "path":"sprites/spr_snicknpc_idle_sheets/spr_snicknpc_idle_sheets.yy",
   },
   "visible":true,
 }

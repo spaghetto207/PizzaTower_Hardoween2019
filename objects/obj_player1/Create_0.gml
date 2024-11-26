@@ -86,7 +86,7 @@ anger = 0;
 angry = 0;
 baddiegrabbedID = 0;
 spr_palette = spr_peppalette;
-character = "N";
+character = "S";
 scr_characterspr();
 paletteselect = 1;
 global.panic = false;

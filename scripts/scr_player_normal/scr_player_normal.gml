@@ -271,7 +271,7 @@ function scr_player_normal()
 	    idle = 0;
 	}
 	
-	if (character == "P")
+	if (character == "P" || character == "S")
 	{
 	    if (move != 0)
 	    {
@@ -325,7 +325,7 @@ function scr_player_normal()
 	    image_speed = 0.35;
 	}
 	
-	if (key_slap2 && !(shotgunAnim == 1 && key_up))
+	if (key_slap2 && !(shotgunAnim == 1 && key_up) && character != "S")
 	{
 	    suplexmove = 1;
 	    scr_soundeffect(sfx_suplexdash);
@@ -340,7 +340,7 @@ function scr_player_normal()
 	    movespeed = 6;
 	}
 	
-	if (key_slap2 && (shotgunAnim == 1 && key_up))
+	if (key_slap2 && (shotgunAnim == 1 && key_up) && character != "S")
 	{
 	    scr_soundeffect(sfx_killingblow);
 	    state = states.shotgun;

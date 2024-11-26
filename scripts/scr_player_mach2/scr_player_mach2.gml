@@ -158,7 +158,7 @@ function scr_player_mach2()
 	    sprite_index = spr_machslidestart;
 	}
 	
-	if (move == -xscale && grounded)
+	if (move == -xscale && grounded && character != "S")
 	{
 	    scr_soundeffect(sfx_machslideboost);
 	    image_index = 0;
@@ -166,7 +166,7 @@ function scr_player_mach2()
 	    sprite_index = spr_machslideboost;
 	}
 	
-	if (move == xscale && !key_attack && grounded)
+	if (move == xscale && !key_attack && grounded && character != "S")
 	    state = states.normal;
 	
 	if (sprite_index == spr_rollgetup)

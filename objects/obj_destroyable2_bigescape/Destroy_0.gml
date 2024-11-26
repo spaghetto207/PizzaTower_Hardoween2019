@@ -5,7 +5,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
         repeat (6)
         {
             with (instance_create(x + 32, y + 32, obj_debris))
-                sprite_index = spr_halloweenbigdebris;
+	            sprite_index = other.sprite_index == spr_halloweenbigblock ? spr_halloweenbigdebris : spr_bigpizzadebrisescape
         }
         
         with (instance_create(x + 32, y + 32, obj_pizzaslice))

@@ -68,7 +68,7 @@ function scr_player_mach1()
 	if (sprite_index == spr_airdash1 && floor(image_index) == (image_number - 1))
 	    sprite_index = spr_airdash2;
 	
-	if (!key_attack || (character == "S" && move == 0))
+	if ((!key_attack && character != "S") || (character == "S" && move == 0))
 	{
 	    state = states.normal;
 	    image_index = 0;

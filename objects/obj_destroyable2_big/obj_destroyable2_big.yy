@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_halloweenbigblock",
-    "path":"sprites/spr_halloweenbigblock/spr_halloweenbigblock.yy",
+    "name":"spr_bigbreakable",
+    "path":"sprites/spr_bigbreakable/spr_bigbreakable.yy",
   },
   "spriteMaskId":null,
   "visible":true,

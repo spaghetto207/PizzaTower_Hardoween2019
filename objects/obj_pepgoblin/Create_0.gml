@@ -33,5 +33,5 @@ spr_dead = spr_pepgoblin_dead;
 important = 0;
 heavy = 1;
 depth = 0;
-paletteselect = 1;
+paletteselect = string_letters(room_get_name(room)) == "chateau" ? 1 : 0;
 spr_palette = palette_pepgoblin;

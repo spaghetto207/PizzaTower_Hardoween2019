@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_halloweenspinningpizza",
-    "path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",
+    "name":"spr_pizzaslice",
+    "path":"sprites/spr_pizzaslice/spr_pizzaslice.yy",
   },
   "spriteMaskId":null,
   "visible":true,

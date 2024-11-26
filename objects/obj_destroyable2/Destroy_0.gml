@@ -3,7 +3,7 @@ if (ds_list_find_index(global.saveroom, id) == -1 && global.snickchallenge == fa
     repeat (6)
     {
         with (instance_create(x + 16, y, obj_pizzadebris))
-            sprite_index = spr_halloweendebris;
+				sprite_index = other.sprite_index == spr_halloweensmallblock ? spr_halloweendebris : spr_pizzadebris;
     }
     
     instance_create(x, y, obj_collect);
