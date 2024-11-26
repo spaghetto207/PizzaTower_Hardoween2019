@@ -6,3 +6,4 @@
 *.yy text eol=lf
 *.yyp text eol=lf
 *.json text eol=lf
+*organize_out.txt
