@@ -1,5 +1,30 @@
 depth = -500;
 
+function string_split_list(argument0, argument1)
+{
+    var _current_str, _list, i, _char;
+    
+    argument0 += " ";
+    _current_str = "";
+    _list = ds_list_create();
+    
+    for (i = 1; i < (string_length(argument0) + 1); i++)
+    {
+        _char = string_char_at(argument0, i);
+        
+        if (_char != argument1)
+        {
+            _current_str += _char;
+        }
+        else
+        {
+            ds_list_add(_list, _current_str);
+            _current_str = "";
+        }
+    }
+    
+    return _list;
+}
 function function_overload(argument0, fnc)
 {
     var _size;
@@ -51,7 +76,7 @@ function DebugCommand(argument0, argument1, argument2, argument3) constructor
     Invoke = function(argument0)
     {
         if (argument0 != undefined)
-            function_overload(argument0, func);
+            obj_debugcontroller.function_overload(argument0, func);
         else
             func();
     };
@@ -186,22 +211,22 @@ PLAYER_SET_STATE = new DebugCommand("player_set_state", "Changes the player stat
     {
         with (obj_player)
         {
-            if (object_index == obj_player1 || global.coop)
+            if (object_index == obj_player1)
             {
                 state = argument0;
                 _spr = sprite_index;
                 
                 switch (argument0)
                 {
-                    case UnknownEnum.Value_0:
+                    case states.normal:
                         _spr = spr_idle;
                         break;
                     
-                    case UnknownEnum.Value_19:
-                        _spr = 524;
+                    case states.cheesepep:
+                        _spr = spr_cheesepep_idle;
                         break;
                     
-                    case UnknownEnum.Value_33:
+                    case states.knightpep:
                         _spr = spr_knightpepidle;
                         break;
                 }
@@ -273,13 +298,13 @@ function check_command(argument0)
 {
     var i, _cmd;
     
-    if (!array_length(argument0) - 1 > 0)
+    if (!ds_list_empty(argument0))
     {
         for (i = 0; i < ds_list_size(command_list); i++)
         {
             _cmd = ds_list_find_value(command_list, i);
             
-            if (argument0[0] == _cmd.command_id)
+            if (ds_list_find_value(argument0, 0) == _cmd.command_id)
                 return i;
         }
     }

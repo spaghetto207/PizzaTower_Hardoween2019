@@ -26,10 +26,10 @@ if (active)
     
     if (keyboard_check_pressed(vk_enter) && input_text != "")
     {
-        _commands = string_split(input_text, " ");
+        _commands = string_split_list(input_text, " ");
         active = 0;
         
-        if (array_length(_commands) - 1 > 0)
+        if (!ds_list_empty(_commands))
         {
             input_text = "";
             keyboard_string = "";
@@ -37,8 +37,8 @@ if (active)
             
             if (_cmd != -1)
             {
-                array_delete(_commands, 0, 1);
-                ds_list_find_value(command_list, _cmd).Invoke(array_length(_commands) - 1 > 0 ? undefined : _commands);
+                ds_list_delete(_commands, 0);
+                ds_list_find_value(command_list, _cmd).Invoke(ds_list_empty(_commands) ? undefined : _commands);
             }
             else
             {
