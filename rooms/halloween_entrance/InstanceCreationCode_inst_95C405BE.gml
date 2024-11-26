@@ -1,0 +1,1 @@
+sprite_index = spr_snicknpc_idle_sheets;

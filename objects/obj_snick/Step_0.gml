@@ -14,7 +14,6 @@ if (place_meeting(x, y, obj_player))
     
 	if (room == halloween_entrance)
 	{
-		sprite_index = spr_snicknpc_idle_sheets;
 	    with (obj_tv)
 	    {
 	        if (global.chateaurank == "none")

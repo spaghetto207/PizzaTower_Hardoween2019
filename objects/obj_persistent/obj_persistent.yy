@@ -9,8 +9,8 @@
   "name":"obj_persistent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"gamesettings",
+    "path":"folders/Objects/gamesettings.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -225,7 +225,7 @@
     {"name":"obj_peppermanbomb","order":105,"path":"objects/obj_peppermanbomb/obj_peppermanbomb.yy",},
     {"name":"obj_peppermancharge","order":100,"path":"objects/obj_peppermancharge/obj_peppermancharge.yy",},
     {"name":"obj_peppermandestroyable","order":99,"path":"objects/obj_peppermandestroyable/obj_peppermandestroyable.yy",},
-    {"name":"obj_persistent","order":2,"path":"objects/obj_persistent/obj_persistent.yy",},
+    {"name":"obj_persistent","order":18,"path":"objects/obj_persistent/obj_persistent.yy",},
     {"name":"obj_phonebooth","order":151,"path":"objects/obj_phonebooth/obj_phonebooth.yy",},
     {"name":"obj_pineahitbox","order":62,"path":"objects/obj_pineahitbox/obj_pineahitbox.yy",},
     {"name":"obj_piraneapple","order":9,"path":"objects/obj_piraneapple/obj_piraneapple.yy",},
