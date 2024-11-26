@@ -7,6 +7,7 @@ draw_sprite_ext(tvsprite, -1, 832, 74, 1, 1, 1, c_white, alpha);
 var str = string_hash_to_newline(message);
 var str_x = (camera_get_view_width(view_camera[0]) / 2) - (string_width(str) / 2);
 draw_text(str_x + random_range(1, -1), yi, str);
+draw_set_halign(fa_center);
 
 if (global.combo != 0 && global.combotime != 0 && (tvsprite == spr_tvdefault || tvsprite == spr_tvcombo))
     draw_text(852, 75, string_hash_to_newline(global.combo));
