@@ -177,6 +177,19 @@ SHOW_HUD = new DebugCommand("showhud", "Shows the HUD", "showhud <bool>", functi
         }
     }
 });
+SET_PLAYER_CHARACTER = new DebugCommand("set_player_character", "Sets the player's character", "set_player_character <character:string>", function(argument0)
+{
+    if (argument0 == undefined)
+        exit;
+    
+    argument0 = string(argument0);
+    
+	with (obj_player1)
+	{
+	    character = argument0;
+		scr_characterspr();
+	}
+});
 PLAYER_ROOM = new DebugCommand("player_room", "Go to given room", "player_room <targetRoom> <targetDoor>", function(argument0, argument1)
 {
     if (argument0 == undefined)
@@ -247,7 +260,7 @@ ds_map_set(state_map, "states.cheesepep", states.cheesepep);
 ds_map_set(state_map, "states.knightpep", states.knightpep);
 command_list = ds_list_create();
 ds_list_add(command_list, SHOW_HUD, SHOW_COLLISIONS, PLAYER_ROOM, PLAYER_SET_STATE, PANIC, ALLTOPPINS);
-ds_list_add(command_list, SETCOMBO, GIVEKEY);
+ds_list_add(command_list, SETCOMBO, GIVEKEY, SET_PLAYER_CHARACTER);
 
 input_text = "";
 input_text_list = ds_list_create();
