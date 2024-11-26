@@ -2019,6 +2019,7 @@
     {"name":"spr_targetblock","order":1912,"path":"sprites/spr_targetblock/spr_targetblock.yy",},
     {"name":"spr_taunteffect","order":1626,"path":"sprites/spr_taunteffect/spr_taunteffect.yy",},
     {"name":"spr_thunder","order":1593,"path":"sprites/spr_thunder/spr_thunder.yy",},
+    {"name":"spr_tile_plains","order":2007,"path":"sprites/spr_tile_plains/spr_tile_plains.yy",},
     {"name":"spr_timesup","order":1784,"path":"sprites/spr_timesup/spr_timesup.yy",},
     {"name":"spr_title","order":1735,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_tntblock","order":1906,"path":"sprites/spr_tntblock/spr_tntblock.yy",},

@@ -205,12 +205,9 @@ SET_PLAYER_CHARACTER = new DebugCommand("player_set_character", "Sets the player
 		scr_characterspr();
 	}
 });
-PLAYER_ROOM = new DebugCommand("player_room", "Go to given room", "player_room <targetRoom> <targetDoor>", function(argument0, argument1)
+PLAYER_ROOM = new DebugCommand("player_room", "Go to given room", "player_room <targetRoom> <targetDoor:optional>", function(argument0, argument1)
 {
     if (argument0 == undefined)
-        exit;
-    
-    if (argument1 == undefined)
         exit;
     
     argument0 = asset_get_index(argument0);
@@ -221,10 +218,45 @@ PLAYER_ROOM = new DebugCommand("player_room", "Go to given room", "player_room <
     with (obj_player)
     {
         targetRoom = argument0;
-        targetDoor = argument1;
+		if (argument1 != undefined)
+			targetDoor = argument1;
+		else
+			targetDoor = "OLD";
     }
     
     instance_create(x, y, obj_fadeout);
+});
+PLAYER_POSITION = new DebugCommand("player_position", "Sets the player's position", "player_position <object:string> or <x:number> <y:number>", function(argument0, argument1)
+{
+    if (argument0 == undefined)
+        exit;
+    
+    var test_obj = asset_get_index(argument0);
+    
+    if (test_obj == -1)
+    {
+		argument0 = get_number_string(argument0);
+		argument1 = get_number_string(argument1);
+	    with (obj_player)
+	    {
+	        x = argument0;
+			y = argument1;
+	    }
+	}
+	else
+	{
+		if (!instance_exists(test_obj))
+			exit;
+			
+		var xx = test_obj.x;
+		var yy = test_obj.y;
+		
+		with (obj_player)
+	    {
+	        x = xx;
+			y = yy;
+	    }
+	}
 });
 PLAYER_SET_STATE = new DebugCommand("player_set_state", "Changes the player state", "player_set_state <states.state>", function(argument0)
 {
@@ -275,7 +307,7 @@ ds_map_set(state_map, "states.cheesepep", states.cheesepep);
 ds_map_set(state_map, "states.knightpep", states.knightpep);
 command_list = ds_list_create();
 ds_list_add(command_list, SHOW_HUD, SHOW_COLLISIONS, PLAYER_ROOM, PLAYER_SET_STATE, PANIC, ALLTOPPINS);
-ds_list_add(command_list, SETCOMBO, GIVEKEY, SET_PLAYER_CHARACTER);
+ds_list_add(command_list, SETCOMBO, GIVEKEY, SET_PLAYER_CHARACTER, PLAYER_POSITION);
 
 input_text = "";
 input_text_list = ds_list_create();

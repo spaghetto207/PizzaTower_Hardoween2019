@@ -2193,6 +2193,7 @@
     {"id":{"name":"spr_targetblock","path":"sprites/spr_targetblock/spr_targetblock.yy",},},
     {"id":{"name":"spr_taunteffect","path":"sprites/spr_taunteffect/spr_taunteffect.yy",},},
     {"id":{"name":"spr_thunder","path":"sprites/spr_thunder/spr_thunder.yy",},},
+    {"id":{"name":"spr_tile_plains","path":"sprites/spr_tile_plains/spr_tile_plains.yy",},},
     {"id":{"name":"spr_timesup","path":"sprites/spr_timesup/spr_timesup.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_tntblock","path":"sprites/spr_tntblock/spr_tntblock.yy",},},
