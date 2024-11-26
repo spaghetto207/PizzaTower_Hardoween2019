@@ -54,7 +54,7 @@ if (global.panic == false && global.snickchallenge == false)
                     pausedmusic = mu_dungeon;
                 }
             }
-            else if (roomname == ("dungeon_" + string(i)) && i > 8)
+            else if (roomname == ("dungeon_" + string(i)) && i > 7)
             {
                 if (!audio_is_playing(mu_dungeondepth))
                 {

@@ -3,8 +3,8 @@
   "%Name":"shd_pal_html_sprite",
   "name":"shd_pal_html_sprite",
   "parent":{
-    "name":"PaletteSwapper",
-    "path":"folders/Shaders/PaletteSwapper.yy",
+    "name":"palette_swapper",
+    "path":"folders/Shaders/palette_swapper.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

@@ -7,7 +7,7 @@
     {"name":"Factory","order":1,"path":"folders/Rooms/Old-levels/Factory.yy",},
     {"name":"Forest","order":2,"path":"folders/Rooms/Old-levels/Forest.yy",},
     {"name":"Golf","order":3,"path":"folders/Rooms/Old-levels/Golf.yy",},
-    {"name":"PaletteSwapper","order":3,"path":"folders/Shaders/PaletteSwapper.yy",},
+    {"name":"palette_swapper","order":3,"path":"folders/Shaders/palette_swapper.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"font0","order":796,"path":"fonts/font0/font0.yy",},
