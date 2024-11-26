@@ -122,6 +122,11 @@ ALLTOPPINS = new DebugCommand("alltoppins", "Adds all the toppins", "alltoppins"
 });
 PANIC = new DebugCommand("panic", "Toggles pizza time", "panic <minutes> <seconds>", function(argument0, argument1)
 {
+	if (argument0 == "")
+		argument0 = undefined;
+	if (argument1 == "")
+		argument1 = undefined;
+		
     if (argument0 != undefined)
     {
         argument0 = get_number_string(argument0);
@@ -187,7 +192,7 @@ SHOW_HUD = new DebugCommand("showhud", "Shows the HUD", "showhud <bool>", functi
         }
     }
 });
-SET_PLAYER_CHARACTER = new DebugCommand("set_player_character", "Sets the player's character", "set_player_character <character:string>", function(argument0)
+SET_PLAYER_CHARACTER = new DebugCommand("player_set_character", "Sets the player's character", "player_set_character <character:string>", function(argument0)
 {
     if (argument0 == undefined)
         exit;
@@ -306,9 +311,6 @@ function get_number_string(argument0)
     var n;
     
     n = argument0;
-    
-	if (n == "")
-		return 0;
 	
     if (is_string(argument0))
     {
