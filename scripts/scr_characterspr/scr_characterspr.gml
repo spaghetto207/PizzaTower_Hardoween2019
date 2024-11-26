@@ -161,6 +161,12 @@ function scr_characterspr()
 	    spr_shotguncrawl = spr_shotgun_crawl;
 	    spr_shotgungoduck = spr_shotgun_goduck;
 	    spr_palette = spr_peppalette;
+		
+	    spr_superjumpprep = spr_player_superjumpprep;
+		spr_superjumppreplight = spr_player_superjumppreplight;
+	    spr_superjump = spr_player_superjump;
+	    spr_superjumpright = spr_player_superjumpright;
+	    spr_superjumpleft = spr_player_superjumpleft;
 	}
 	
 	if (character == "N")
@@ -474,5 +480,9 @@ function scr_characterspr()
 		spr_facestomp = spr_snick_bodyslamland;
 		spr_freefall = spr_null;
 	    spr_superjumppreplight = spr_snick_superjumplight;
+	    spr_superjumpprep = spr_snick_superjumpprep;
+	    spr_superjumpright = spr_snick_superjumpprep;
+	    spr_superjumpleft = spr_snick_superjumpprep;
+	    spr_walljumpend = spr_snick_jump;
 	}
 }
