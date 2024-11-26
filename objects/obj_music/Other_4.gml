@@ -142,13 +142,12 @@ if (global.panic == false && global.snickchallenge == false)
         }
     }
     
-    if (string_pos("_secret", roomname) > 0)
+    if (string_pos("secret", string_letters(roomname)) != 0)
     {
         if (!audio_is_playing(mu_secret))
         {
             audio_stop_all();
             scr_sound(mu_secret);
-            audio_sound_set_track_position(global.music, fadeoff);
             pausedmusic = mu_secret;
         }
     }

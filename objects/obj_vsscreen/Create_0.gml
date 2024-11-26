@@ -5,6 +5,7 @@ noisex = room_width;
 vsy = -400;
 shake = 0;
 instance_deactivate_all(true);
+instance_activate_object(obj_persistent);
 flash = 0;
 flashed = 0;
 flamey = 0;
