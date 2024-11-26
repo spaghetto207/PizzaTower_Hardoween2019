@@ -33,5 +33,5 @@ spr_dead = spr_pizzard_dead;
 important = 0;
 heavy = 1;
 depth = 0;
-paletteselect = string_letters(room_get_name(room)) == "chateau" ? 1 : 0;
+paletteselect = string_pos("chateau", room_get_name(room)) != 0 ? 1 : 0;
 spr_palette = palette_pizzard;
