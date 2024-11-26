@@ -9,7 +9,7 @@ if (room == entrance_1)
     global.crank = global.srank - ((global.srank / 4) * 3);
 }
 
-if (room == medieval_1 && global.snickchallenge == 0)
+if (room == medieval_1 && global.snickchallenge == false)
 {
     global.srank = 11000;
     global.arank = global.srank - (global.srank / 4);
@@ -25,7 +25,7 @@ if (room == chateau_1)
     global.crank = global.srank - ((global.srank / 4) * 3);
 }
 
-if (room == medieval_1 && global.snickchallenge == 1)
+if (room == medieval_1 && global.snickchallenge == true)
 {
     global.srank = 8300;
     global.arank = global.srank - (global.srank / 4);
@@ -33,7 +33,7 @@ if (room == medieval_1 && global.snickchallenge == 1)
     global.crank = global.srank - ((global.srank / 4) * 3);
 }
 
-if (room == ruin_1 && global.snickchallenge == 0)
+if (room == ruin_1 && global.snickchallenge == false)
 {
     global.srank = 11600;
     global.arank = global.srank - (global.srank / 4);
@@ -41,7 +41,7 @@ if (room == ruin_1 && global.snickchallenge == 0)
     global.crank = global.srank - ((global.srank / 4) * 3);
 }
 
-if (room == dungeon_1 && global.snickchallenge == 0)
+if (room == dungeon_1 && global.snickchallenge == false)
 {
     global.srank = 10400;
     global.arank = global.srank - (global.srank / 4);
@@ -227,7 +227,7 @@ if (obj_player.state == states.keyget)
 
 if (instance_exists(obj_noise_pushbutton))
 {
-    if (obj_noise_pushbutton.hsp != 0 && global.panic == 0)
+    if (obj_noise_pushbutton.hsp != 0 && global.panic == false)
     {
         showtext = 1;
         message = "UH OH...";

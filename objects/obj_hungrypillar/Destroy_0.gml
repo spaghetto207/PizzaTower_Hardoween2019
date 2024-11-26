@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.saveroom, id) == -1 && global.snickchallenge == 0)
+if (ds_list_find_index(global.saveroom, id) == -1 && global.snickchallenge == false)
 {
     scr_soundeffect(sfx_escaperumble);
     obj_camera.alarm[1] = 60;
@@ -23,7 +23,7 @@ if (ds_list_find_index(global.saveroom, id) == -1 && global.snickchallenge == 0)
     
     scr_soundeffect(sfx_killenemy);
     instance_create(x, y + 600, obj_itspizzatime);
-    global.panic = 1;
+    global.panic = true;
     
     switch (room)
     {

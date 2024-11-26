@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.532,
+  "duration":0.532336,
   "name":"sfx_killingblow",
   "parent":{
     "name":"sfx",

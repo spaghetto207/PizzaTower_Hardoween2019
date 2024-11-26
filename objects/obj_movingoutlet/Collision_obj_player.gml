@@ -66,14 +66,8 @@ with (obj_player)
     else if (state == states.cheesepep || state == states.cheesepepstick)
     {
         obj_player.grav = 0.5;
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
+		repeat (8)
+			instance_create(x, y, obj_slimedebris);
         
         if (x != other.x)
             obj_player.hsp = sign(x - other.x) * 5;

@@ -7,7 +7,7 @@ if (obj_player.state == states.pizzathrow)
 if (sprite_index == spr_noisebomb_intro && floor(image_index) == (image_number - 1))
     sprite_index = spr_noisebomb_idle;
 
-if (global.panic == 1 && sprite_index != spr_noisebomb_intro)
+if (global.panic == true && sprite_index != spr_noisebomb_intro)
 {
     image_alpha = obj_player.image_alpha;
     

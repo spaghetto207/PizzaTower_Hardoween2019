@@ -8,36 +8,24 @@ function scr_player_knightpepslopes()
 	if (sprite_index == spr_knightpepdownslope)
 	    movespeed = 15;
 	
-	if (!scr_slope())
-	    sprite_index = spr_knightpepcharge;
-	
 	if (scr_slope())
 	    sprite_index = spr_knightpepdownslope;
+	else
+		sprite_index = spr_knightpepcharge;
 	
 	if (scr_solid(x + sign(hsp), y) && !place_meeting(x + sign(hsp), y, obj_destructibles))
 	{
 	    if (character == "P" || character == "N")
 	    {
-	        with (instance_create(x, y, obj_knightdebris))
-	            image_index = 0;
-	        
-	        with (instance_create(x, y, obj_knightdebris))
-	            image_index = 1;
-	        
-	        with (instance_create(x, y, obj_knightdebris))
-	            image_index = 2;
-	        
-	        with (instance_create(x, y, obj_knightdebris))
-	            image_index = 3;
-	        
-	        if (character == "P")
-	        {
-	            with (instance_create(x, y, obj_knightdebris))
-	                image_index = 4;
-	            
-	            with (instance_create(x, y, obj_knightdebris))
-	                image_index = 5;
-	        }
+			var length = 3;
+			if (character == "P")
+				length = 5;
+				
+			for (var i = 0; i < length; i++)
+			{	
+		        with (instance_create(x, y, obj_knightdebris))
+		            image_index = i;
+			}
 	    }
 	    else
 	    {

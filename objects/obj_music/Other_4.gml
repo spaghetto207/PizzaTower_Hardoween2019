@@ -1,6 +1,6 @@
 var roomname;
 
-if (global.panic == 0 && global.snickchallenge == 0)
+if (global.panic == false && global.snickchallenge == false)
 {
     if (instance_exists(obj_pepperman))
     {
@@ -142,7 +142,7 @@ if (global.panic == 0 && global.snickchallenge == 0)
         }
     }
     
-    if (string_letters(roomname) == "chateausecret" || string_letters(roomname) == "medievalsecret" || string_letters(roomname) == "ruinsecret" || string_letters(roomname) == "dungeonsecret")
+    if (string_pos("_secret", roomname) > 0)
     {
         if (!audio_is_playing(mu_secret))
         {

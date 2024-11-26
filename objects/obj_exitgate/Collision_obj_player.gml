@@ -2,7 +2,7 @@ var roomname;
 
 with (obj_player)
 {
-    if (grounded && (x > (other.x - 160) && x < (other.x + 160)) && key_up && (state == states.normal || state == states.mach1 || state == states.mach2 || state == states.mach3) && (global.panic == 1 || global.snickchallenge == 1))
+    if (grounded && (x > (other.x - 160) && x < (other.x + 160)) && key_up && (state == states.normal || state == states.mach1 || state == states.mach2 || state == states.mach3) && (global.panic == true || global.snickchallenge == true))
     {
         targetDoor = "none";
         obj_camera.alarm[2] = -1;
@@ -11,7 +11,7 @@ with (obj_player)
         {
             global.rank = "s";
             
-            if (global.snickchallenge == 1)
+            if (global.snickchallenge == true)
                 global.SAGEsnicksrank = 1;
         }
         else if (global.collect > global.arank)
@@ -336,7 +336,7 @@ with (obj_player)
         obj_player1.sprite_index = obj_player1.spr_lookdoor;
         obj_endlevelfade.alarm[0] = 235;
         image_index = 0;
-        global.panic = 0;
-        global.snickchallenge = 0;
+        global.panic = false;
+        global.snickchallenge = false;
     }
 }

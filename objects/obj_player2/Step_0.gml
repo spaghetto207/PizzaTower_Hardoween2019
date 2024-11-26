@@ -483,7 +483,7 @@ if (state == states.gottreasure || sprite_index == spr_knightpep_start || sprite
 else
     cutscene = 0;
 
-if ((place_meeting(x, y, obj_door) || place_meeting(x, y, obj_keydoor) || (place_meeting(x, y, obj_exitgate) && global.panic == 1)) && !instance_exists(obj_uparrow) && scr_solid(x, y + 1) && state == states.normal)
+if ((place_meeting(x, y, obj_door) || place_meeting(x, y, obj_keydoor) || (place_meeting(x, y, obj_exitgate) && global.panic == true)) && !instance_exists(obj_uparrow) && scr_solid(x, y + 1) && state == states.normal)
     instance_create(x, y, obj_uparrow);
 
 scr_collide_destructibles();

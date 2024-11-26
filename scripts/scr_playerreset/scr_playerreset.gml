@@ -8,7 +8,7 @@ function scr_playerreset()
 	global.maxwave = 0;
 	global.secretfound = 0;
 	global.hurtcounter = 0;
-	global.snickchallenge = 0;
+	global.snickchallenge = false;
 	
 	if (instance_exists(obj_snickexe))
 	    instance_destroy(obj_snickexe);
@@ -63,7 +63,7 @@ function scr_playerreset()
 	    start_running = 1;
 	    obj_camera.ded = 0;
 	    visible = true;
-	    global.panic = 0;
+	    global.panic = false;
 	    turn = 0;
 	    jumpAnim = 1;
 	    dashAnim = 1;

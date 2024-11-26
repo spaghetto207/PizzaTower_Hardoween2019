@@ -3,7 +3,7 @@ function scr_panicbg_start()
 	var _cam_x, _cam_y, bg1, bg2, bg3;
 	
 	if (!variable_global_exists("panicbg_surface") || !surface_exists(global.panicbg_surface))
-	    global.panicbg_surface = surface_create(__view_get(e__VW.WView, 0), __view_get(e__VW.HView, 0));
+	    global.panicbg_surface = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
 	
 	if (event_type == ev_draw && event_number == 0)
 	{

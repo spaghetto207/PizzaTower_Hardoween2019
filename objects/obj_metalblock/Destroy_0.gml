@@ -1,9 +1,7 @@
 if (ds_list_find_index(global.saveroom, id) == -1)
 {
-    instance_create(x + 32, y + 32, obj_metaldebris);
-    instance_create(x + 32, y + 32, obj_metaldebris);
-    instance_create(x + 32, y + 32, obj_metaldebris);
-    instance_create(x + 32, y + 32, obj_metaldebris);
+	repeat (4)
+		instance_create(x + 32, y + 32, obj_metaldebris);
     tile_layer_delete_at(1, x, y);
     tile_layer_delete_at(1, x + 32, y);
     tile_layer_delete_at(1, x + 32, y + 32);

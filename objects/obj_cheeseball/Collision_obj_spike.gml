@@ -2,17 +2,10 @@ if (obj_player.state == states.cheeseball)
 {
     with (obj_player)
     {
-        scr_sound(sound_losetransformation);
+        scr_sound(sfx_loseknight);
         obj_player.grav = 0.5;
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
-        instance_create(x, y, obj_slimedebris);
+		repeat (8)
+			instance_create(x, y, obj_slimedebris);
         instance_destroy(other.id);
         
         if (x != other.x)
@@ -30,13 +23,7 @@ if (obj_player.state == states.cheeseball)
 }
 else
 {
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
+	repeat (8)
+		instance_create(x, y, obj_slimedebris);
     instance_destroy();
 }

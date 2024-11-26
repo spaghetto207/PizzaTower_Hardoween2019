@@ -11,7 +11,7 @@ function pal_swap_set()
 	    tex = sprite_get_texture(_pal_sprite, 0);
 	    UVs = sprite_get_uvs(_pal_sprite, 0);
 	    texture_set_stage(global.Pal_Texture, tex);
-	    texture_set_interpolation_ext(global.Pal_Texture, 1);
+	    gpu_set_texfilter_ext(global.Pal_Texture, 1);
 	    texel_x = texture_get_texel_width(tex);
 	    texel_y = texture_get_texel_height(tex);
 	    texel_hx = texel_x * 0.5;
@@ -24,7 +24,7 @@ function pal_swap_set()
 	{
 	    tex = surface_get_texture(_pal_sprite);
 	    texture_set_stage(global.Pal_Texture, tex);
-	    texture_set_interpolation_ext(global.Pal_Texture, 1);
+	    gpu_set_texfilter_ext(global.Pal_Texture, 1);
 	    texel_x = texture_get_texel_width(tex);
 	    texel_y = texture_get_texel_height(tex);
 	    texel_hx = texel_x * 0.5;

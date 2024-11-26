@@ -102,7 +102,7 @@ if (obj_player2.state != states.gameover)
     draw_set_halign(fa_center);
     draw_set_color(c_white);
     
-    if (global.panic == 1)
+    if (global.panic == true)
     {
         if (global.seconds < 10)
         {
@@ -130,4 +130,4 @@ if (obj_player2.state != states.gameover)
     draw_sprite_ext(spr_inv, -1, 50, 30, 1, 1, 1, c_white, alpha);
 }
 
-draw_set_blend_mode(bm_normal);
+gpu_set_blendmode(bm_normal);

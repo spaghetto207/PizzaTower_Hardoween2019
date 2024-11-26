@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.625,
+  "duration":0.625488,
   "name":"sfx_tumble2",
   "parent":{
     "name":"sfx",

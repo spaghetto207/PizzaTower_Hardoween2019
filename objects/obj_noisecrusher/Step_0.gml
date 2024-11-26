@@ -85,7 +85,7 @@ if (caughtplayer == 1 && grounded)
     if (obj_player.sprite_index != spr_boxxedpep_intro)
     {
         obj_player.sprite_index = spr_boxxedpep_intro;
-        scr_sound(sound_touchspike);
+        scr_sound(sfx_pephurt);
     }
     
     obj_player.image_index = 0;

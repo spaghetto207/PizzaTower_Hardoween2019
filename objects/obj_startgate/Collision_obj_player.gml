@@ -25,7 +25,7 @@ if (floor(obj_player1.image_index) == (obj_player1.image_number - 1) && obj_play
             if (global.panicbg)
                 scr_panicbg_init();
             
-            global.snickchallenge = 1;
+            global.snickchallenge = true;
             global.collect = 10000;
             
             with (obj_camera)

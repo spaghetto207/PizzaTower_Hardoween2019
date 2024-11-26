@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.911,
+  "duration":0.911383,
   "name":"sfx_loseknight",
   "parent":{
     "name":"sfx",

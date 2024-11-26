@@ -7,7 +7,7 @@ if (sprite_index == spr_noise_button && floor(image_index) == (image_number - 1)
 
 if (floor(image_index) == 86)
 {
-    global.panic = 1;
+    global.panic = true;
     obj_player.image_index = 0;
     obj_player.sprite_index = spr_player_bossintro;
 }

@@ -41,7 +41,7 @@ function scr_fakepeppino_hit()
 	{
 	    with (obj_player)
 	    {
-	        if (state != states.hurt && scr_sound(sound_touchspike))
+	        if (state != states.hurt && scr_sound(sfx_pephurt))
 	            global.hurtcounter += 1;
 	        
 	        alarm[8] = 60;

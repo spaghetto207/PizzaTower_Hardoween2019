@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.084,
+  "duration":1.084331,
   "name":"sfx_suplexdash",
   "parent":{
     "name":"sfx",

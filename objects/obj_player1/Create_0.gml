@@ -89,8 +89,8 @@ spr_palette = spr_peppalette;
 character = "N";
 scr_characterspr();
 paletteselect = 1;
-global.panic = 0;
-global.snickchallenge = 0;
+global.panic = false;
+global.snickchallenge = false;
 colorchange = 0;
 treasure_x = 0;
 treasure_y = 0;
@@ -175,8 +175,13 @@ ini_close();
 stickpressed = 0;
 
 move = 0;
+//ensure player's step event runs first
 step_event = false;
-step_disable = [obj_mainmenuselect, obj_pause, obj_file1, obj_file1, obj_file2, obj_file3];
+step_disable = [
+	obj_pause,
+	//main menu
+	obj_mainmenuselect, obj_file1, obj_file1, obj_file2, obj_file3
+];
 
 for (var i = 0; i < array_length(step_disable); i++)
 	instance_deactivate_object(step_disable[i]);	

@@ -65,7 +65,7 @@ with (obj_player)
             }
         }
         
-        scr_sound(sound_touchspike);
+        scr_sound(sfx_pephurt);
         alarm[8] = 60;
         hurted = 1;
         

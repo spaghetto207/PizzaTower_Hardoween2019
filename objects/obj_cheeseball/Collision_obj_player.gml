@@ -1,13 +1,7 @@
 if (obj_player.state == states.knightpep || obj_player.state == states.knightpepattack)
 {
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
+	repeat (8)
+		instance_create(x, y, obj_slimedebris);
     instance_destroy();
 }
 else
@@ -18,13 +12,7 @@ else
     obj_player.x = x;
     obj_player.y = y;
     obj_player.state = states.cheeseball;
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
-    instance_create(x, y, obj_slimedebris);
+	repeat (8)
+		instance_create(x, y, obj_slimedebris);
     instance_destroy();
 }

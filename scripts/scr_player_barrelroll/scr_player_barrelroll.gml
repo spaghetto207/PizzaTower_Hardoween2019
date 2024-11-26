@@ -24,16 +24,8 @@ function scr_player_barrelroll()
 	    mach2 = 0;
 	    image_index = 0;
 	    instance_create(x + 10, y + 10, obj_bumpeffect);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
+		repeat (10)
+		    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
 	}
 	
 	if (scr_solid(x - 1, y) && image_xscale == -1)
@@ -46,16 +38,8 @@ function scr_player_barrelroll()
 	    mach2 = 0;
 	    image_index = 0;
 	    instance_create(x - 10, y + 10, obj_bumpeffect);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
-	    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
+		repeat (10)
+		    instance_create(x + random_range(15, -15), y + random_range(15, -15), obj_wooddebris);
 	}
 	
 	instance_create(x, y, obj_mach2effect);

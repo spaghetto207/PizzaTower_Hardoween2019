@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.703,
+  "duration":0.703855,
   "name":"sfx_breakblock2",
   "parent":{
     "name":"sfx",

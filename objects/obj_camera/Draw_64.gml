@@ -37,7 +37,7 @@ if (obj_player.state != states.gameover)
             draw_sprite_ext(spr_pepinoHUD3hp, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (obj_player.sprite_index == spr_player_hurtidle || obj_player.sprite_index == spr_player_hurtwalk)
             draw_sprite_ext(spr_pepinoHUD1hp, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (global.panic == 1 || global.snickchallenge == 1)
+        else if (global.panic == true || global.snickchallenge == true)
             draw_sprite_ext(spr_pepinoHUDpanic, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (obj_player.sprite_index == spr_shotgun_pullout)
             draw_sprite_ext(spr_pepinoHUDmenacing, -1, 125, 100, 1, 1, 1, c_white, alpha);
@@ -78,7 +78,7 @@ if (obj_player.state != states.gameover)
             draw_sprite_ext(spr_noiseHUD_angry, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (obj_player.sprite_index == obj_player.spr_hurtidle || obj_player.sprite_index == obj_player.spr_hurtwalk)
             draw_sprite_ext(spr_noiseHUD_lowhealth, -1, 125, 100, 1, 1, 1, c_white, alpha);
-        else if (global.panic == 1 || global.snickchallenge == 1)
+        else if (global.panic == true || global.snickchallenge == true)
             draw_sprite_ext(spr_noiseHUD_panic, -1, 125, 100, 1, 1, 1, c_white, alpha);
         else if (obj_player.sprite_index == spr_shotgun_pullout)
             draw_sprite_ext(spr_noiseHUD_menacing, -1, 125, 100, 1, 1, 1, c_white, alpha);
@@ -111,7 +111,7 @@ if (obj_player.state != states.gameover)
     draw_set_halign(fa_center);
     draw_set_color(c_white);
     
-    if (global.panic == 1 || global.snickchallenge == 1)
+    if (global.panic == true || global.snickchallenge == true)
     {
         if (global.seconds < 10)
         {
@@ -139,4 +139,4 @@ if (obj_player.state != states.gameover)
     draw_sprite_ext(spr_inv, -1, 50, 30, 1, 1, 1, c_white, alpha);
 }
 
-draw_set_blend_mode(bm_normal);
+gpu_set_blendmode(bm_normal);

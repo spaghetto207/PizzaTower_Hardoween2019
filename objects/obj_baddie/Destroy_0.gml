@@ -33,7 +33,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1 && important == 0)
     obj_tv.image_index = random_range(0, 4);
     global.combo += 1;
     
-    if (global.snickchallenge == 0)
+    if (global.snickchallenge == false)
     {
         if (global.combo == 1)
         {

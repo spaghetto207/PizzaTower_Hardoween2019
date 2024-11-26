@@ -4,7 +4,7 @@ if (sprite_index == spr_grabbiehand_fall)
     {
         if (state == states.boxxedpep)
         {
-            scr_sound(sound_losetransformation);
+            scr_sound(sfx_loseknight);
             
             with (instance_create(x, y, obj_boxxeddebris))
                 image_index = 0;
@@ -24,15 +24,9 @@ if (sprite_index == spr_grabbiehand_fall)
         
         if (state == states.cheesepep || state == states.cheesepepstick)
         {
-            scr_sound(sound_losetransformation);
-            instance_create(x, y, obj_slimedebris);
-            instance_create(x, y, obj_slimedebris);
-            instance_create(x, y, obj_slimedebris);
-            instance_create(x, y, obj_slimedebris);
-            instance_create(x, y, obj_slimedebris);
-            instance_create(x, y, obj_slimedebris);
-            instance_create(x, y, obj_slimedebris);
-            instance_create(x, y, obj_slimedebris);
+            scr_sound(sfx_loseknight);
+			repeat (4)
+				instance_create(x, y, obj_slimedebris);
         }
     }
     

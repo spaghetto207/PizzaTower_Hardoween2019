@@ -4,7 +4,7 @@ function scr_player_cheeseball()
 	
 	if (!scr_slope() && instance_place(x + sign(hsp), y, obj_solid))
 	{
-	    scr_sound(sound_losetransformation);
+	    scr_sound(sfx_loseknight);
 	    obj_player.grav = 0.5;
 	    
 	    repeat (8)

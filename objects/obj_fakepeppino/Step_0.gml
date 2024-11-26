@@ -1,4 +1,4 @@
-if (global.panic == 1)
+if (global.panic == true)
 {
     switch (state)
     {
@@ -26,7 +26,7 @@ if (place_meeting(x + hsp, y, obj_destructibles))
         instance_destroy();
 }
 
-if (global.panic == 1)
+if (global.panic == true)
     appeartimer--;
 
 if (appeartimer == 0)

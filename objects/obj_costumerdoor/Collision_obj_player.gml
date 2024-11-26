@@ -3,7 +3,7 @@ with (obj_player)
     if (grounded && state != states.transitioncutscene)
     {
         global.timeractive = 0;
-        global.panic = 0;
+        global.panic = false;
         global.panicbg = 0;
         image_speed = 0.35;
         x = other.x + 30;

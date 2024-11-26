@@ -1,7 +1,7 @@
-if (obj_player.state != states.hurt && global.panic == 0)
+if (obj_player.state != states.hurt && global.panic == false)
 {
     ds_list_add(global.saveroom, id);
-    global.panic = 1;
+    global.panic = true;
     
     switch (room)
     {

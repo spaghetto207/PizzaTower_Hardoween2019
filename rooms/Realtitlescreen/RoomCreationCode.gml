@@ -110,7 +110,7 @@ enum states
 	grabbed = 107,
 }
 
-pal_swap_init_system(shd_pal_swapper);
+
 ini_open("saveData.ini");
 global.deserthighscore = ini_read_string("Highscore", "desert", 0);
 global.mansionhighscore = ini_read_string("Highscore", "mansion", 0);

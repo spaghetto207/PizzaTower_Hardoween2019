@@ -35,7 +35,7 @@ if (pause == 1)
     {
         roomname = room_get_name(room);
         
-        if (global.snickchallenge == 0)
+        if (global.snickchallenge == false)
         {
             if (string_letters(roomname) == "medieval" || string_letters(roomname) == "medievalsecret")
             {
@@ -75,7 +75,7 @@ if (pause == 1)
                 scr_soundeffect(sfx_enemyprojectile);
             }
         }
-        else if (global.snickchallenge == 1)
+        else if (global.snickchallenge == true)
         {
             instance_activate_all();
             room = medieval_1;
@@ -90,7 +90,7 @@ if (pause == 1)
                 scr_panicbg_init();
             
             obj_player1.targetDoor = "A";
-            global.snickchallenge = 1;
+            global.snickchallenge = true;
             pause = 0;
         }
     }

@@ -17,7 +17,7 @@ if (place_meeting(x, y, obj_player) && sprite_index == spr_pizzaboxunopen)
         
         instance_create(x, y, obj_taunteffect);
         instance_create(x, y + 600, obj_itspizzatime);
-        global.panic = 1;
+        global.panic = true;
         
         switch (room)
         {

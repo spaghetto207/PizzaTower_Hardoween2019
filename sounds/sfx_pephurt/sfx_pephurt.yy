@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.985,
+  "duration":0.985397,
   "name":"sfx_pephurt",
   "parent":{
     "name":"sfx",

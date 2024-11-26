@@ -2,10 +2,8 @@ var lay_id, map_id, data;
 
 if (ds_list_find_index(global.saveroom, id) == -1)
 {
-    instance_create(x + 16, y, obj_debris);
-    instance_create(x + 16, y, obj_debris);
-    instance_create(x + 16, y, obj_debris);
-    instance_create(x + 16, y, obj_debris);
+	repeat (4)
+	    instance_create(x + 16, y, obj_debris);
     
     if (audio_is_playing(sfx_breakblock1) || audio_is_playing(sfx_breakblock2))
     {

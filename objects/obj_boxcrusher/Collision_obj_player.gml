@@ -13,7 +13,7 @@ if (sprite_index == spr_boxcrusher_land)
     if (other.sprite_index != spr_boxxedpep_intro)
     {
         other.sprite_index = spr_boxxedpep_intro;
-        scr_sound(sound_touchspike);
+        scr_sound(sfx_pephurt);
     }
     
     other.image_index = 0;

@@ -30,7 +30,7 @@ function scr_player_backbreaker()
 	            
 	            with (obj_baddie)
 	            {
-	                if (point_in_rectangle(x, y, __view_get(e__VW.XView, 0), __view_get(e__VW.YView, 0), __view_get(e__VW.XView, 0) + __view_get(e__VW.WView, 0), __view_get(e__VW.YView, 0) + __view_get(e__VW.HView, 0)))
+	                if (point_in_rectangle(x, y, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])))
 	                    instance_destroy();
 	            }
 	            
@@ -72,7 +72,7 @@ function scr_player_backbreaker()
 	
 	if (key_jump && sprite_index == spr_player_phoneidle)
 	{
-	    global.panic = 1;
+	    global.panic = true;
 	    sprite_index = spr_bossintro;
 	    image_index = 0;
 	    

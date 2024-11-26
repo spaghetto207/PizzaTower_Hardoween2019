@@ -70,7 +70,7 @@ function scr_player_normal()
 	                        
 	                        if (global.minutes == 0 && global.seconds == 0)
 	                            sprite_index = spr_hurtidle;
-	                        else if (global.panic == 1 || global.snickchallenge == 1)
+	                        else if (global.panic == true || global.snickchallenge == true)
 	                            sprite_index = spr_panic;
 	                        else if (angry == 1)
 	                            sprite_index = spr_3hpidle;

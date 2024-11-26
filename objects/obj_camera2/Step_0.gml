@@ -1,5 +1,3 @@
-var target;
-
 view_visible[1] = true;
 view_wport[1] = window_get_width();
 view_yport[1] = 540;
@@ -36,12 +34,12 @@ if (global.seconds > 59)
     global.seconds -= 59;
 }
 
-if ((global.panic == 1 && global.minutes < 1) || obj_player2.sprite_index == spr_player_timesup)
+if ((global.panic == true && global.minutes < 1) || obj_player2.sprite_index == spr_player_timesup)
 {
     shake_mag = 2;
     shake_mag_acc = 3 / room_speed;
 }
-else if (global.panic == 1 && basement == 0)
+else if (global.panic == true && basement == 0)
 {
     shake_mag = 2;
     shake_mag_acc = 3 / room_speed;
@@ -57,7 +55,9 @@ if (shake_mag > 0)
 
 if (instance_exists(obj_player2) && obj_player2.state != states.timesup && obj_player2.state != states.gameover)
 {
-    target = 4;
+    var target = obj_player2;
+	var cam_x = camera_get_view_x(view_camera[0]);
+	var cam_y = camera_get_view_y(view_camera[0]);
     
     if (obj_player2.state == states.mach3 || obj_player2.state == states.machroll)
     {
@@ -66,8 +66,6 @@ if (instance_exists(obj_player2) && obj_player2.state != states.timesup && obj_p
         
         if (chargecamera < (obj_player2.xscale * 100))
             chargecamera += 2;
-        
-        __view_set(e__VW.XView, 1, (target.x - (__view_get(e__VW.WView, 1) / 2)) + chargecamera);
     }
     else
     {
@@ -76,19 +74,19 @@ if (instance_exists(obj_player2) && obj_player2.state != states.timesup && obj_p
         
         if (chargecamera < 0)
             chargecamera += 2;
-        
-        __view_set(e__VW.XView, 1, (target.x - (__view_get(e__VW.WView, 1) / 2)) + chargecamera);
     }
     
-    __view_set(e__VW.XView, 1, clamp(__view_get(e__VW.XView, 1), 0, room_width - __view_get(e__VW.WView, 1)));
-    __view_set(e__VW.YView, 1, target.y - (__view_get(e__VW.HView, 1) / 2));
-    __view_set(e__VW.YView, 1, clamp(__view_get(e__VW.YView, 1), 0, room_height - __view_get(e__VW.HView, 1)));
-    
+	cam_x = (target.x - (camera_get_view_width(view_camera[0]) / 2)) + chargecamera;
+    cam_y = target.y - (camera_get_view_height(view_camera[0]) / 2);
+	  
     if (shake_mag != 0)
     {
-        __view_set(e__VW.XView, 1, (target.x - (__view_get(e__VW.WView, 1) / 2)) + chargecamera);
-        __view_set(e__VW.XView, 1, clamp(__view_get(e__VW.XView, 1), 0, room_width - __view_get(e__VW.WView, 0)));
-        __view_set(e__VW.YView, 1, (target.y - (__view_get(e__VW.HView, 1) / 2)) + irandom_range(-shake_mag, shake_mag));
-        __view_set(e__VW.YView, 1, clamp(__view_get(e__VW.YView, 1), 0 + irandom_range(-shake_mag, shake_mag), (room_height - __view_get(e__VW.HView, 1)) + irandom_range(-shake_mag, shake_mag)));
+        cam_x = (target.x - (camera_get_view_width(view_camera[0]) / 2)) + chargecamera;
+        cam_y = (target.y - (camera_get_view_height(view_camera[0]) / 2)) + irandom_range(-shake_mag, shake_mag);
     }
+	
+    cam_x = clamp(cam_x, 0, room_width - camera_get_view_width(view_camera[0]));
+	cam_y = clamp(cam_y, 0 + irandom_range(-shake_mag, shake_mag), (room_height - camera_get_view_height(view_camera[0])) + irandom_range(-shake_mag, shake_mag));
+  
+	camera_set_view_pos(view_camera[0], cam_x, cam_y);
 }
