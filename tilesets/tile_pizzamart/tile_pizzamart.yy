@@ -17,7 +17,10 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_pizzamarttile",
+    "path":"sprites/spr_pizzamarttile/spr_pizzamarttile.yy",
+  },
   "spriteNoExport":true,
   "textureGroupId":{
     "name":"Default",

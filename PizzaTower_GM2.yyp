@@ -1565,6 +1565,7 @@
     {"id":{"name":"spr_pizzakintomato_run","path":"sprites/spr_pizzakintomato_run/spr_pizzakintomato_run.yy",},},
     {"id":{"name":"spr_pizzakintomato_underwater","path":"sprites/spr_pizzakintomato_underwater/spr_pizzakintomato_underwater.yy",},},
     {"id":{"name":"spr_pizzakintomato","path":"sprites/spr_pizzakintomato/spr_pizzakintomato.yy",},},
+    {"id":{"name":"spr_pizzamarttile","path":"sprites/spr_pizzamarttile/spr_pizzamarttile.yy",},},
     {"id":{"name":"spr_pizzaportal","path":"sprites/spr_pizzaportal/spr_pizzaportal.yy",},},
     {"id":{"name":"spr_pizzaportalend","path":"sprites/spr_pizzaportalend/spr_pizzaportalend.yy",},},
     {"id":{"name":"spr_pizzaportalentrance","path":"sprites/spr_pizzaportalentrance/spr_pizzaportalentrance.yy",},},

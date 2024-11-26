@@ -1391,6 +1391,7 @@
     {"name":"spr_pizzakintomato_run","order":29,"path":"sprites/spr_pizzakintomato_run/spr_pizzakintomato_run.yy",},
     {"name":"spr_pizzakintomato_underwater","order":30,"path":"sprites/spr_pizzakintomato_underwater/spr_pizzakintomato_underwater.yy",},
     {"name":"spr_pizzakintomato","order":26,"path":"sprites/spr_pizzakintomato/spr_pizzakintomato.yy",},
+    {"name":"spr_pizzamarttile","order":1984,"path":"sprites/spr_pizzamarttile/spr_pizzamarttile.yy",},
     {"name":"spr_pizzaportal","order":1937,"path":"sprites/spr_pizzaportal/spr_pizzaportal.yy",},
     {"name":"spr_pizzaportalend","order":1940,"path":"sprites/spr_pizzaportalend/spr_pizzaportalend.yy",},
     {"name":"spr_pizzaportalentrance","order":1941,"path":"sprites/spr_pizzaportalentrance/spr_pizzaportalentrance.yy",},
