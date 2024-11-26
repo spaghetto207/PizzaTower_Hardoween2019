@@ -1,3 +1,5 @@
+event_order;
+
 if (room == rank_room || room == timesuproom || room == Realtitlescreen)
     visible = false;
 else
@@ -57,7 +59,7 @@ if (instance_exists(target) && target.state != states.timesup && target.state !=
 {
     var cam_x = target.x - (camera_get_view_width(view_camera[0]) / 2);
     var cam_y = target.y - (camera_get_view_height(view_camera[0]) / 2);
-	
+    
     if (target.state == states.mach3 || target.state == states.machroll)
     {
         if (chargecamera > (target.xscale * 100))
@@ -75,16 +77,13 @@ if (instance_exists(target) && target.state != states.timesup && target.state !=
             chargecamera += 2;
     }
     
-	cam_x += chargecamera;
-	  
-    if (shake_mag != 0)
-    {
-        cam_x += chargecamera;
-        cam_y += irandom_range(-shake_mag, shake_mag);
-    }
-	
+    cam_x += chargecamera;
+    
     cam_x = clamp(cam_x, 0, room_width - camera_get_view_width(view_camera[0]));
-	cam_y = clamp(cam_y, 0 + irandom_range(-shake_mag, shake_mag), (room_height - camera_get_view_height(view_camera[0])) + irandom_range(-shake_mag, shake_mag));
-  
-	camera_set_view_pos(view_camera[0], cam_x, cam_y);
+    cam_y = clamp(cam_y, 0, room_height - camera_get_view_height(view_camera[0]));
+    
+    if (shake_mag != 0)
+        cam_y += irandom_range(-shake_mag, shake_mag);
+    
+    camera_set_view_pos(view_camera[0], cam_x, cam_y);
 }

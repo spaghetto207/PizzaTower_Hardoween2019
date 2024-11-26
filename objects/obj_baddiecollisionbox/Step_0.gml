@@ -1,3 +1,5 @@
+event_order;
+
 if (!instance_exists(baddieID))
     instance_destroy();
 

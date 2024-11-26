@@ -175,13 +175,3 @@ ini_close();
 stickpressed = 0;
 
 move = 0;
-//ensure player's step event runs first
-step_event = false;
-step_disable = [
-	obj_music, obj_pause,
-	//main menu
-	obj_mainmenuselect, obj_file1, obj_file1, obj_file2, obj_file3
-];
-
-for (var i = 0; i < array_length(step_disable); i++)
-	instance_deactivate_object(step_disable[i]);	
