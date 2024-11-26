@@ -2373,6 +2373,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Realtitlescreen","path":"rooms/Realtitlescreen/Realtitlescreen.yy",},},
     {"roomId":{"name":"halloween_entrance","path":"rooms/halloween_entrance/halloween_entrance.yy",},},
     {"roomId":{"name":"chateau_1","path":"rooms/chateau_1/chateau_1.yy",},},
     {"roomId":{"name":"chateau_secret1","path":"rooms/chateau_secret1/chateau_secret1.yy",},},
@@ -2393,7 +2394,6 @@
     {"roomId":{"name":"chateau_secret6","path":"rooms/chateau_secret6/chateau_secret6.yy",},},
     {"roomId":{"name":"chateau_10","path":"rooms/chateau_10/chateau_10.yy",},},
     {"roomId":{"name":"Scootertransition","path":"rooms/Scootertransition/Scootertransition.yy",},},
-    {"roomId":{"name":"Realtitlescreen","path":"rooms/Realtitlescreen/Realtitlescreen.yy",},},
     {"roomId":{"name":"leveltransitioncutscene","path":"rooms/leveltransitioncutscene/leveltransitioncutscene.yy",},},
     {"roomId":{"name":"Titlescreen","path":"rooms/Titlescreen/Titlescreen.yy",},},
     {"roomId":{"name":"Tutorialtrap","path":"rooms/Tutorialtrap/Tutorialtrap.yy",},},
