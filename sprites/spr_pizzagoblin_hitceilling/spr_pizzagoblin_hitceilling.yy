@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c7e20054-986c-4613-8bea-1cfcd1e4c5a5","name":"c7e20054-986c-4613-8bea-1cfcd1e4c5a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2919bc99-429d-40f9-a2f0-2706d9a7a524","name":"2919bc99-429d-40f9-a2f0-2706d9a7a524","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d7d93410-548c-4b95-8693-cce31dcf80c8","name":"d7d93410-548c-4b95-8693-cce31dcf80c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c8c511d2-fb8c-44f7-a82e-09417737c2bc","name":"c8c511d2-fb8c-44f7-a82e-09417737c2bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c2c28a4e-5f2e-4902-9960-38a7c12b8dce","name":"c2c28a4e-5f2e-4902-9960-38a7c12b8dce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0f8e1379-9344-4a84-9549-51f20df4c0d8","name":"0f8e1379-9344-4a84-9549-51f20df4c0d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b8aeccd1-2044-45ab-98c4-8bd4d2b6b98c","blendMode":0,"displayName":"default","isLocked":false,"name":"b8aeccd1-2044-45ab-98c4-8bd4d2b6b98c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6778a8d2-8634-4238-8f82-7add7e1fced4","blendMode":0,"displayName":"default","isLocked":false,"name":"6778a8d2-8634-4238-8f82-7add7e1fced4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_pizzagoblin_hitceilling",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7e20054-986c-4613-8bea-1cfcd1e4c5a5","path":"sprites/spr_pizzagoblin_hitceilling/spr_pizzagoblin_hitceilling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"87069cbc-3b16-4e18-9b17-66c398358b59","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8c511d2-fb8c-44f7-a82e-09417737c2bc","path":"sprites/spr_pizzagoblin_hitceilling/spr_pizzagoblin_hitceilling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"98b0c5b9-5884-4681-ae89-46a5c87ed54a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2919bc99-429d-40f9-a2f0-2706d9a7a524","path":"sprites/spr_pizzagoblin_hitceilling/spr_pizzagoblin_hitceilling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f36219e3-3ef7-489a-8132-99af86393383","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2c28a4e-5f2e-4902-9960-38a7c12b8dce","path":"sprites/spr_pizzagoblin_hitceilling/spr_pizzagoblin_hitceilling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cea7b2ae-3035-431e-adc4-5006ea32930e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7d93410-548c-4b95-8693-cce31dcf80c8","path":"sprites/spr_pizzagoblin_hitceilling/spr_pizzagoblin_hitceilling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c66ffb10-f885-49aa-859c-e06d916240da","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f8e1379-9344-4a84-9549-51f20df4c0d8","path":"sprites/spr_pizzagoblin_hitceilling/spr_pizzagoblin_hitceilling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"02d1880d-2d87-4961-b7a3-360a8c4713fa","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

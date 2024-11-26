@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c1923172-13c3-4fd3-84ac-c5881a6f7f9b","name":"c1923172-13c3-4fd3-84ac-c5881a6f7f9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ce5b9692-b9a5-46dc-a51a-0fc79791c8f6","name":"ce5b9692-b9a5-46dc-a51a-0fc79791c8f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5cb9e7c9-bcbc-4662-a520-f5d75e32f6b0","name":"5cb9e7c9-bcbc-4662-a520-f5d75e32f6b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6f626202-5b7c-4fa0-addc-e3fca3794b38","name":"6f626202-5b7c-4fa0-addc-e3fca3794b38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"99a2e0dc-03f4-4da5-baed-bbae8bb8ea6f","name":"99a2e0dc-03f4-4da5-baed-bbae8bb8ea6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"260eca26-b251-4e9c-a6eb-8832ce673401","name":"260eca26-b251-4e9c-a6eb-8832ce673401","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"da93780f-7ac5-4c83-811d-4456b3ddecad","blendMode":0,"displayName":"default","isLocked":false,"name":"da93780f-7ac5-4c83-811d-4456b3ddecad","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"218465ac-969f-4af9-91ee-15badc8feb52","blendMode":0,"displayName":"default","isLocked":false,"name":"218465ac-969f-4af9-91ee-15badc8feb52","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ninja_attack",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1923172-13c3-4fd3-84ac-c5881a6f7f9b","path":"sprites/spr_ninja_attack/spr_ninja_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1c29b58a-89c0-4926-84ab-0493698fd3fb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6f626202-5b7c-4fa0-addc-e3fca3794b38","path":"sprites/spr_ninja_attack/spr_ninja_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c8cca1ff-766f-4176-8899-015ed4698135","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ce5b9692-b9a5-46dc-a51a-0fc79791c8f6","path":"sprites/spr_ninja_attack/spr_ninja_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"119b13b1-b656-45f5-950b-8b62f577fc5a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99a2e0dc-03f4-4da5-baed-bbae8bb8ea6f","path":"sprites/spr_ninja_attack/spr_ninja_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f01d464b-28a8-4083-8522-924162e9f5cb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5cb9e7c9-bcbc-4662-a520-f5d75e32f6b0","path":"sprites/spr_ninja_attack/spr_ninja_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"87d7b7eb-d4c8-48b6-a28d-f5eb392634bc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"260eca26-b251-4e9c-a6eb-8832ce673401","path":"sprites/spr_ninja_attack/spr_ninja_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"395cbd1d-fe18-484c-9944-e97120aba307","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"621b4b5a-93b3-4065-a446-0b45a65211c7","name":"621b4b5a-93b3-4065-a446-0b45a65211c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ae2195f9-6492-4d8d-93b1-aca7b9e5149d","name":"ae2195f9-6492-4d8d-93b1-aca7b9e5149d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"434d2554-844a-4f24-8653-832abdfee6e9","name":"434d2554-844a-4f24-8653-832abdfee6e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dbcb83bb-07dc-4a20-aaa9-5c36f479f301","name":"dbcb83bb-07dc-4a20-aaa9-5c36f479f301","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":560,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"949f9f87-ebc6-4cb4-b913-b594726c2c5c","blendMode":0,"displayName":"default","isLocked":false,"name":"949f9f87-ebc6-4cb4-b913-b594726c2c5c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"11dda4cb-f0d7-419c-a34d-bf62f29705af","blendMode":0,"displayName":"default","isLocked":false,"name":"11dda4cb-f0d7-419c-a34d-bf62f29705af","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_castle1escape",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"621b4b5a-93b3-4065-a446-0b45a65211c7","path":"sprites/bg_castle1escape/bg_castle1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"91d281a1-beb9-4b1f-8d47-8cdb8b863480","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"434d2554-844a-4f24-8653-832abdfee6e9","path":"sprites/bg_castle1escape/bg_castle1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c246497c-22d1-4a08-9f46-12651290e1f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae2195f9-6492-4d8d-93b1-aca7b9e5149d","path":"sprites/bg_castle1escape/bg_castle1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"314c4ffe-7a50-40cb-adcb-0bf306584356","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dbcb83bb-07dc-4a20-aaa9-5c36f479f301","path":"sprites/bg_castle1escape/bg_castle1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9628525d-07f4-464e-a480-78a4857d8984","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,19 +12,19 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e83d2cb-89c1-4f20-9929-1e95638de9e9","name":"6e83d2cb-89c1-4f20-9929-1e95638de9e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"44dbd075-e5c3-4347-97c1-9125fc38b572","name":"44dbd075-e5c3-4347-97c1-9125fc38b572","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ee715f54-0ddf-4ff0-a40a-4ebe9861c27b","name":"ee715f54-0ddf-4ff0-a40a-4ebe9861c27b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8874dca6-1ea9-4c30-9122-6a6ac3df8918","name":"8874dca6-1ea9-4c30-9122-6a6ac3df8918","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"43c10ae9-64be-4efb-88a7-e77b49055c94","name":"43c10ae9-64be-4efb-88a7-e77b49055c94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"140a21e6-1c93-4631-b80d-cc18d4c0684a","name":"140a21e6-1c93-4631-b80d-cc18d4c0684a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"754de6c3-8fdb-4e87-b736-8072901add93","name":"754de6c3-8fdb-4e87-b736-8072901add93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0296aa25-fd1a-4904-b9c1-d1970501d3ea","name":"0296aa25-fd1a-4904-b9c1-d1970501d3ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"62d22bab-a425-4d5a-b6ad-b711fb6af4e5","name":"62d22bab-a425-4d5a-b6ad-b711fb6af4e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6ab9f794-071e-4831-ae16-0751c85954a1","name":"6ab9f794-071e-4831-ae16-0751c85954a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"80534b84-b746-4ec0-b01c-f971decd8673","name":"80534b84-b746-4ec0-b01c-f971decd8673","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b16e3dd9-a945-43ad-ab59-477aa055702e","name":"b16e3dd9-a945-43ad-ab59-477aa055702e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"105148a0-963a-4454-8cc2-a15285bfa8fd","blendMode":0,"displayName":"default","isLocked":false,"name":"105148a0-963a-4454-8cc2-a15285bfa8fd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2fd9e5ca-467b-47dc-88f4-2cc60f6bf17e","blendMode":0,"displayName":"default","isLocked":false,"name":"2fd9e5ca-467b-47dc-88f4-2cc60f6bf17e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cigar_land",
   "nineSlice":null,
@@ -74,23 +74,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e83d2cb-89c1-4f20-9929-1e95638de9e9","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9c575b3a-8c75-4732-a7a3-ac14357cfbbe","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"754de6c3-8fdb-4e87-b736-8072901add93","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"95c69eac-c240-4a9e-985c-b4e2e3755def","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"44dbd075-e5c3-4347-97c1-9125fc38b572","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"973929d5-bed0-453f-90a1-c18e31d1c140","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0296aa25-fd1a-4904-b9c1-d1970501d3ea","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"399b19cb-0502-4f1a-9078-5590850db34a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee715f54-0ddf-4ff0-a40a-4ebe9861c27b","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b06a6c36-9956-44be-a97e-4af45bc769c4","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62d22bab-a425-4d5a-b6ad-b711fb6af4e5","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aa4049e3-35d2-46ff-a820-2de09d9a536f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8874dca6-1ea9-4c30-9122-6a6ac3df8918","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c67f11c0-06f5-4b5c-b1f1-93638b83c411","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ab9f794-071e-4831-ae16-0751c85954a1","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0f5db818-1a6d-4320-a25b-1f74d7d507ae","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43c10ae9-64be-4efb-88a7-e77b49055c94","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"297e3ea3-8df1-4ab5-96a4-49aacc1c4c4c","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"80534b84-b746-4ec0-b01c-f971decd8673","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b365a6fc-cc32-4df5-80d0-f7e72bdeaa7b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"140a21e6-1c93-4631-b80d-cc18d4c0684a","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a88c843b-dddb-4129-bfff-8492820269d1","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b16e3dd9-a945-43ad-ab59-477aa055702e","path":"sprites/spr_cigar_land/spr_cigar_land.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ff7333ec-8c1e-4cc9-8319-51ef6b49813c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

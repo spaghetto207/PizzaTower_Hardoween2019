@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4515b53a-eecd-4f3d-b0e3-7a66036d8505","name":"4515b53a-eecd-4f3d-b0e3-7a66036d8505","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"94ed5d60-8a54-4680-8741-b049b52c2523","name":"94ed5d60-8a54-4680-8741-b049b52c2523","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ffca4adb-db35-47ed-87e7-7525f9648c7f","name":"ffca4adb-db35-47ed-87e7-7525f9648c7f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f532105d-48ec-4563-87a2-853cf7fa3f7b","name":"f532105d-48ec-4563-87a2-853cf7fa3f7b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2d2e7a79-6783-4c57-8e9d-a5efe3a69699","name":"2d2e7a79-6783-4c57-8e9d-a5efe3a69699","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b095c23b-0211-4ada-983a-86794eb62d4b","name":"b095c23b-0211-4ada-983a-86794eb62d4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f1768052-2922-4bcf-9cbb-97955a33ca12","name":"f1768052-2922-4bcf-9cbb-97955a33ca12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1e212bec-83ac-4d0b-8bfa-48dcc41b4df7","name":"1e212bec-83ac-4d0b-8bfa-48dcc41b4df7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8b27e9ef-0d11-443f-8798-050fb9822cda","name":"8b27e9ef-0d11-443f-8798-050fb9822cda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c2dc737f-97fd-4fb7-9835-0a86817adf82","name":"c2dc737f-97fd-4fb7-9835-0a86817adf82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"74a50a98-8dac-42d5-8807-3e65bb7c366a","blendMode":0,"displayName":"default","isLocked":false,"name":"74a50a98-8dac-42d5-8807-3e65bb7c366a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6edf2cd9-b394-4b2c-b687-25226e989b57","blendMode":0,"displayName":"default","isLocked":false,"name":"6edf2cd9-b394-4b2c-b687-25226e989b57","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_pizzagoblin_stunfalltrans",
   "nineSlice":null,
@@ -73,20 +73,20 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4515b53a-eecd-4f3d-b0e3-7a66036d8505","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b90fd6b4-3aae-47d3-b212-d6d880c1aab7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b095c23b-0211-4ada-983a-86794eb62d4b","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ee53e505-8894-4417-ae46-987c7bd34608","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94ed5d60-8a54-4680-8741-b049b52c2523","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f50bf8fe-1c37-480a-ab57-c74ca8d53349","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1768052-2922-4bcf-9cbb-97955a33ca12","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4d97168e-5ba2-4651-9f92-5fdd674c7494","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffca4adb-db35-47ed-87e7-7525f9648c7f","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4a6e85e9-0454-43be-97ea-89664baaa489","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e212bec-83ac-4d0b-8bfa-48dcc41b4df7","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"55cee14f-b694-4b21-a4d8-1d46e1c1f5ce","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f532105d-48ec-4563-87a2-853cf7fa3f7b","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3aaac860-603f-484e-901d-2e6415454640","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8b27e9ef-0d11-443f-8798-050fb9822cda","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"65f9ba4f-ae8e-48c2-bdea-539a261c6708","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2d2e7a79-6783-4c57-8e9d-a5efe3a69699","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"65feccb5-0424-4693-b1bc-23730b703c40","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2dc737f-97fd-4fb7-9835-0a86817adf82","path":"sprites/spr_pizzagoblin_stunfalltrans/spr_pizzagoblin_stunfalltrans.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"90ea4007-8cd0-4515-8601-7cb98b1d26e5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

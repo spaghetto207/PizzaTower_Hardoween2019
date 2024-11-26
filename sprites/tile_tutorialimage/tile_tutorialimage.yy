@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e5753f55-63f0-4072-92ea-6ccb12bd3d1a","name":"e5753f55-63f0-4072-92ea-6ccb12bd3d1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5ea326d0-00f2-4a3f-9e4d-669e3e0bc0f9","name":"5ea326d0-00f2-4a3f-9e4d-669e3e0bc0f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
-  "HTile":true,
+  "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"673d49b4-2ff7-4614-a61c-1c7b51d1db5a","blendMode":0,"displayName":"default","isLocked":false,"name":"673d49b4-2ff7-4614-a61c-1c7b51d1db5a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0f122b99-0044-40a3-bcec-e48d53302db0","blendMode":0,"displayName":"default","isLocked":false,"name":"0f122b99-0044-40a3-bcec-e48d53302db0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"tile_tutorialimage",
   "nineSlice":null,
@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"",
+    "%Name":"tile_tutorialimage",
     "autoRecord":true,
-    "backdropHeight":1080,
+    "backdropHeight":768,
     "backdropImageOpacity":0.5,
     "backdropImagePath":"",
-    "backdropWidth":1920,
+    "backdropWidth":1366,
     "backdropXOffset":0.0,
     "backdropYOffset":0.0,
     "events":{
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"",
+    "name":"tile_tutorialimage",
     "playback":1,
     "playbackSpeed":15.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5753f55-63f0-4072-92ea-6ccb12bd3d1a","path":"sprites/tile_tutorialimage/tile_tutorialimage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cca41f78-f7a1-4bbd-bd86-71c6a95c4656","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ea326d0-00f2-4a3f-9e4d-669e3e0bc0f9","path":"sprites/tile_tutorialimage/tile_tutorialimage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d87dc5e2-5feb-45da-989f-539871df076c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -81,10 +81,10 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texture_tilesets",
+    "path":"texturegroups/texture_tilesets",
   },
   "type":0,
-  "VTile":true,
+  "VTile":false,
   "width":1200,
 }

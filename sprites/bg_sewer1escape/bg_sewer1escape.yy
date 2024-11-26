@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9f0ef1d8-eb9c-4fb8-b1c2-996b8c2f0a36","name":"9f0ef1d8-eb9c-4fb8-b1c2-996b8c2f0a36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1ff597a4-cc61-409a-8a5a-2061dff72bde","name":"1ff597a4-cc61-409a-8a5a-2061dff72bde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0aff7864-d169-4807-ade6-2b685d76bd0e","name":"0aff7864-d169-4807-ade6-2b685d76bd0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a43ef99d-afb9-40be-a530-ae64aa7070fa","name":"a43ef99d-afb9-40be-a530-ae64aa7070fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":540,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"19c51d6a-f5dc-414d-b925-bc6d687f19c5","blendMode":0,"displayName":"default","isLocked":false,"name":"19c51d6a-f5dc-414d-b925-bc6d687f19c5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f739488d-38dc-489f-8750-ff99e8f3766e","blendMode":0,"displayName":"default","isLocked":false,"name":"f739488d-38dc-489f-8750-ff99e8f3766e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_sewer1escape",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f0ef1d8-eb9c-4fb8-b1c2-996b8c2f0a36","path":"sprites/bg_sewer1escape/bg_sewer1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a73458be-9ffe-48eb-94ae-80a78ddd53df","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0aff7864-d169-4807-ade6-2b685d76bd0e","path":"sprites/bg_sewer1escape/bg_sewer1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ae225b63-8ae1-44a4-9177-2d0778a2ae61","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ff597a4-cc61-409a-8a5a-2061dff72bde","path":"sprites/bg_sewer1escape/bg_sewer1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"aaf415fe-bdca-498f-88e8-7c2cfe626bf4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a43ef99d-afb9-40be-a530-ae64aa7070fa","path":"sprites/bg_sewer1escape/bg_sewer1escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"08ce4b3a-602c-449e-ad8b-8a8a28ee48d4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

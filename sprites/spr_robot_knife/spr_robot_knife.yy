@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0a8271f5-459c-481b-8ce3-4efc1e59ecd4","name":"0a8271f5-459c-481b-8ce3-4efc1e59ecd4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"20211635-376c-46ae-b18e-9d073326c6d0","name":"20211635-376c-46ae-b18e-9d073326c6d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f7bffeea-0c0b-41a6-bd21-78eb57da075c","name":"f7bffeea-0c0b-41a6-bd21-78eb57da075c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2df64724-ac93-4601-8018-0ab9093aafe2","name":"2df64724-ac93-4601-8018-0ab9093aafe2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"41dadacc-9f67-4fc8-9c19-d469ae123b45","name":"41dadacc-9f67-4fc8-9c19-d469ae123b45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"34d429e9-c621-4351-baba-1c16e5ce5023","name":"34d429e9-c621-4351-baba-1c16e5ce5023","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6f5e178a-d5d7-4ee1-bb39-8b2107e65bf9","blendMode":0,"displayName":"default","isLocked":false,"name":"6f5e178a-d5d7-4ee1-bb39-8b2107e65bf9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"904d2050-a76f-4012-9fe7-4244d398e53e","blendMode":0,"displayName":"default","isLocked":false,"name":"904d2050-a76f-4012-9fe7-4244d398e53e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_robot_knife",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a8271f5-459c-481b-8ce3-4efc1e59ecd4","path":"sprites/spr_robot_knife/spr_robot_knife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"76776bda-bf21-405c-8bbe-22eaa8a08188","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2df64724-ac93-4601-8018-0ab9093aafe2","path":"sprites/spr_robot_knife/spr_robot_knife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3e3fbac3-192a-4fe1-98fd-980bdcfdfb99","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20211635-376c-46ae-b18e-9d073326c6d0","path":"sprites/spr_robot_knife/spr_robot_knife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d11cd24d-dda1-4270-a87f-0bda26113724","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41dadacc-9f67-4fc8-9c19-d469ae123b45","path":"sprites/spr_robot_knife/spr_robot_knife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6927b854-eb65-4a40-bd67-b1940c3bb62b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7bffeea-0c0b-41a6-bd21-78eb57da075c","path":"sprites/spr_robot_knife/spr_robot_knife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f2d55be8-ed6c-4b46-8477-8396388b5e42","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34d429e9-c621-4351-baba-1c16e5ce5023","path":"sprites/spr_robot_knife/spr_robot_knife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c6c01246-a4cc-4e31-9684-3a0a6470b50d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

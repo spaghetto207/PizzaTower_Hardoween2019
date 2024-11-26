@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e78973a8-4440-4241-8e29-62b1df3d4d6d","name":"e78973a8-4440-4241-8e29-62b1df3d4d6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"75e32058-44bd-4df5-92d3-2fe75fc50122","name":"75e32058-44bd-4df5-92d3-2fe75fc50122","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d0cbec40-c79f-4268-a78c-f5d579ec6302","name":"d0cbec40-c79f-4268-a78c-f5d579ec6302","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9c1283ee-f5ae-44e1-82be-c7a355da84e6","name":"9c1283ee-f5ae-44e1-82be-c7a355da84e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c39748ec-2cd7-4769-81fd-f68bc6e6384e","blendMode":0,"displayName":"default","isLocked":false,"name":"c39748ec-2cd7-4769-81fd-f68bc6e6384e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f8cbfeee-a14d-4b5a-be33-03211414ea0c","blendMode":0,"displayName":"default","isLocked":false,"name":"f8cbfeee-a14d-4b5a-be33-03211414ea0c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_shotgun_crouchjump2",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e78973a8-4440-4241-8e29-62b1df3d4d6d","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"683353ea-28c2-411a-aa88-40d05aa4d043","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d0cbec40-c79f-4268-a78c-f5d579ec6302","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"78392c9d-2a9e-4fd9-bfbe-856613feecff","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"75e32058-44bd-4df5-92d3-2fe75fc50122","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"512791de-a7c5-4271-82a3-756ebb1aecc9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c1283ee-f5ae-44e1-82be-c7a355da84e6","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a5a02d3-6cb5-4b76-aebf-1bccbdb1cea2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

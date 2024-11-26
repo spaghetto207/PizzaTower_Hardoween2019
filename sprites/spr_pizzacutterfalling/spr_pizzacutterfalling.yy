@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f489d9e4-7f5b-4646-ab97-0de8d544ee18","name":"f489d9e4-7f5b-4646-ab97-0de8d544ee18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f82bbc28-d4ca-48d5-90ef-7214f4c9d95b","name":"f82bbc28-d4ca-48d5-90ef-7214f4c9d95b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c53ed896-cab9-4121-9028-62d3ab58a475","name":"c53ed896-cab9-4121-9028-62d3ab58a475","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"034b27ed-2b3a-440e-bc06-4fa550a60186","name":"034b27ed-2b3a-440e-bc06-4fa550a60186","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ac43058a-cd8b-4189-8cb7-689ad4959162","name":"ac43058a-cd8b-4189-8cb7-689ad4959162","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c9314562-8850-4a17-9d03-704e6b5229f0","name":"c9314562-8850-4a17-9d03-704e6b5229f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":60,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2be5e37a-b465-4a9b-9f66-3dccfd1403e8","blendMode":0,"displayName":"default","isLocked":false,"name":"2be5e37a-b465-4a9b-9f66-3dccfd1403e8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"dc611453-e317-4590-9e25-509dfb34a796","blendMode":0,"displayName":"default","isLocked":false,"name":"dc611453-e317-4590-9e25-509dfb34a796","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_pizzacutterfalling",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f489d9e4-7f5b-4646-ab97-0de8d544ee18","path":"sprites/spr_pizzacutterfalling/spr_pizzacutterfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"17e1e91a-cfbb-483c-af0d-f88beb110925","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"034b27ed-2b3a-440e-bc06-4fa550a60186","path":"sprites/spr_pizzacutterfalling/spr_pizzacutterfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0c267604-e498-408b-9462-6e20f8be70d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f82bbc28-d4ca-48d5-90ef-7214f4c9d95b","path":"sprites/spr_pizzacutterfalling/spr_pizzacutterfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d7c149e2-44fd-43a3-9bf4-70ea03afc0a3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac43058a-cd8b-4189-8cb7-689ad4959162","path":"sprites/spr_pizzacutterfalling/spr_pizzacutterfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fb282ba6-f756-4af1-9268-63f5ae0e3a4c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c53ed896-cab9-4121-9028-62d3ab58a475","path":"sprites/spr_pizzacutterfalling/spr_pizzacutterfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bfde48a1-5294-4893-82f0-7a89cbeb7c06","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9314562-8850-4a17-9d03-704e6b5229f0","path":"sprites/spr_pizzacutterfalling/spr_pizzacutterfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6ae3ab7b-3a46-4c0f-a448-8060f738c80d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

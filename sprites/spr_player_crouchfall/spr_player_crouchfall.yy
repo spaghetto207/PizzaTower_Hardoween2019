@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7e0e7488-eca1-4dfc-8743-e35309bff598","name":"7e0e7488-eca1-4dfc-8743-e35309bff598","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"abbdb7fe-6fa1-431d-a832-fddceb513875","name":"abbdb7fe-6fa1-431d-a832-fddceb513875","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"06955135-fd33-4c56-8b1a-528614f3fb1e","name":"06955135-fd33-4c56-8b1a-528614f3fb1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f6028487-f3ef-456c-ae8c-0b579a40a6b8","name":"f6028487-f3ef-456c-ae8c-0b579a40a6b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"785e0655-0c66-4102-b93f-a49ac087aed4","name":"785e0655-0c66-4102-b93f-a49ac087aed4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f65a5081-fcb9-494e-af45-cd2525883a29","name":"f65a5081-fcb9-494e-af45-cd2525883a29","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d3fb07a6-90bd-4bc4-99de-cee41af4546c","blendMode":0,"displayName":"default","isLocked":false,"name":"d3fb07a6-90bd-4bc4-99de-cee41af4546c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"794456af-e17a-4644-9ef1-bce06a9ee689","blendMode":0,"displayName":"default","isLocked":false,"name":"794456af-e17a-4644-9ef1-bce06a9ee689","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_player_crouchfall",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e0e7488-eca1-4dfc-8743-e35309bff598","path":"sprites/spr_player_crouchfall/spr_player_crouchfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2102e92f-7599-40d1-bed8-9c47c01a3413","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6028487-f3ef-456c-ae8c-0b579a40a6b8","path":"sprites/spr_player_crouchfall/spr_player_crouchfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2685ab2a-2734-44fc-bf63-151ccca8c2e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"abbdb7fe-6fa1-431d-a832-fddceb513875","path":"sprites/spr_player_crouchfall/spr_player_crouchfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1acd01c3-b7a8-4672-abaa-06001f76ef8b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"785e0655-0c66-4102-b93f-a49ac087aed4","path":"sprites/spr_player_crouchfall/spr_player_crouchfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4be69dd6-8416-45ff-8365-511e02491afd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06955135-fd33-4c56-8b1a-528614f3fb1e","path":"sprites/spr_player_crouchfall/spr_player_crouchfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a49f298e-dd69-4d2a-bd25-b9f5d9a6f59d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f65a5081-fcb9-494e-af45-cd2525883a29","path":"sprites/spr_player_crouchfall/spr_player_crouchfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f5359cb1-de45-46fc-b70b-663d6776e559","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

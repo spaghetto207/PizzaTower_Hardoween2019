@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8e13a98d-938a-4dd4-8e4e-7a0edd4d91d9","name":"8e13a98d-938a-4dd4-8e4e-7a0edd4d91d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"304d6680-a619-4f85-a12b-72dc3fa40581","name":"304d6680-a619-4f85-a12b-72dc3fa40581","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":700,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"069c3e9e-4909-49a8-b82d-00d7aad0d4c3","blendMode":0,"displayName":"default","isLocked":false,"name":"069c3e9e-4909-49a8-b82d-00d7aad0d4c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"60ee9cbf-8c71-4599-a03c-24ef5ee632aa","blendMode":0,"displayName":"default","isLocked":false,"name":"60ee9cbf-8c71-4599-a03c-24ef5ee632aa","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"tile_desert",
   "nineSlice":null,
@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"",
+    "%Name":"tile_desert",
     "autoRecord":true,
-    "backdropHeight":1080,
+    "backdropHeight":768,
     "backdropImageOpacity":0.5,
     "backdropImagePath":"",
-    "backdropWidth":1920,
+    "backdropWidth":1366,
     "backdropXOffset":0.0,
     "backdropYOffset":0.0,
     "events":{
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"",
+    "name":"tile_desert",
     "playback":1,
     "playbackSpeed":15.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e13a98d-938a-4dd4-8e4e-7a0edd4d91d9","path":"sprites/tile_desert/tile_desert.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"882919c5-47d5-4edf-a0e8-a934e97ff5a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"304d6680-a619-4f85-a12b-72dc3fa40581","path":"sprites/tile_desert/tile_desert.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0299d7e6-2ee6-44d7-a677-93e3acd9a58a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

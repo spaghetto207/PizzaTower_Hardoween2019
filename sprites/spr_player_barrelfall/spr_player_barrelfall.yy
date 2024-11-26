@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d400128d-1480-4dd8-9764-7985c42eb055","name":"d400128d-1480-4dd8-9764-7985c42eb055","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"312d227f-cc34-4b32-8027-1428a75b3e19","name":"312d227f-cc34-4b32-8027-1428a75b3e19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ff6854c8-fa62-44be-84da-67d0da80b2b1","name":"ff6854c8-fa62-44be-84da-67d0da80b2b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c676129b-8288-4770-8f4e-c6935af30cbb","name":"c676129b-8288-4770-8f4e-c6935af30cbb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"600f1cdf-1d66-4258-9269-0a7da5ea0796","name":"600f1cdf-1d66-4258-9269-0a7da5ea0796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0c3055dc-e4a5-4f4b-ad67-90e1b2cd0bbf","name":"0c3055dc-e4a5-4f4b-ad67-90e1b2cd0bbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a60d766b-4c90-41d8-aa64-80577f5af84b","blendMode":0,"displayName":"default","isLocked":false,"name":"a60d766b-4c90-41d8-aa64-80577f5af84b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"44af4779-9940-49d9-a0dd-c7b25ae8e141","blendMode":0,"displayName":"default","isLocked":false,"name":"44af4779-9940-49d9-a0dd-c7b25ae8e141","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_player_barrelfall",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d400128d-1480-4dd8-9764-7985c42eb055","path":"sprites/spr_player_barrelfall/spr_player_barrelfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"57311622-6049-49aa-8e8e-e925a1a3756d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c676129b-8288-4770-8f4e-c6935af30cbb","path":"sprites/spr_player_barrelfall/spr_player_barrelfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1cb4256e-ce8b-4274-9424-873511abdbc1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"312d227f-cc34-4b32-8027-1428a75b3e19","path":"sprites/spr_player_barrelfall/spr_player_barrelfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ac593db5-09b4-43e9-9d64-e74861261612","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"600f1cdf-1d66-4258-9269-0a7da5ea0796","path":"sprites/spr_player_barrelfall/spr_player_barrelfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f2a7e395-bd7b-45c7-af7a-80b9bffa07b6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ff6854c8-fa62-44be-84da-67d0da80b2b1","path":"sprites/spr_player_barrelfall/spr_player_barrelfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7cb2a44b-063e-4600-9244-b9acdb32fcb4","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c3055dc-e4a5-4f4b-ad67-90e1b2cd0bbf","path":"sprites/spr_player_barrelfall/spr_player_barrelfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c54c8702-ceac-413c-918e-306dd2f925f9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

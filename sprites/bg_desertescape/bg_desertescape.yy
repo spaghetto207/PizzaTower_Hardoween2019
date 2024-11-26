@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3ccc2b58-bff3-4c45-a638-c084b36b0c00","name":"3ccc2b58-bff3-4c45-a638-c084b36b0c00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"df01d107-c1fc-4647-83a7-9a1ae68a874d","name":"df01d107-c1fc-4647-83a7-9a1ae68a874d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"92972db8-1fad-4427-98d7-ac71ce6d9150","name":"92972db8-1fad-4427-98d7-ac71ce6d9150","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"eb5d56b0-5c48-4e2c-b0ae-c8acc0456dad","name":"eb5d56b0-5c48-4e2c-b0ae-c8acc0456dad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":540,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"59e912c5-9450-4f32-8853-7edbf92d0ea8","blendMode":0,"displayName":"default","isLocked":false,"name":"59e912c5-9450-4f32-8853-7edbf92d0ea8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f7afc530-38f1-4f9a-8d63-951da644eac1","blendMode":0,"displayName":"default","isLocked":false,"name":"f7afc530-38f1-4f9a-8d63-951da644eac1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_desertescape",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ccc2b58-bff3-4c45-a638-c084b36b0c00","path":"sprites/bg_desertescape/bg_desertescape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0ed0d272-8752-4c32-8378-be703c4ce3f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"92972db8-1fad-4427-98d7-ac71ce6d9150","path":"sprites/bg_desertescape/bg_desertescape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7d583bce-e3f8-4d08-bea3-040ac50a1b9d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df01d107-c1fc-4647-83a7-9a1ae68a874d","path":"sprites/bg_desertescape/bg_desertescape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0605bbdc-a183-463d-8e10-e744452018f7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb5d56b0-5c48-4e2c-b0ae-c8acc0456dad","path":"sprites/bg_desertescape/bg_desertescape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"87a18d73-fba2-4b74-b8b5-b3e25c332ba7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

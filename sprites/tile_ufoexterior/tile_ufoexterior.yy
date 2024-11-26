@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b4c3eead-f070-43fe-b535-1baa9a59d678","name":"b4c3eead-f070-43fe-b535-1baa9a59d678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a81f07d8-1e0d-47c4-946c-6b22b783743c","name":"a81f07d8-1e0d-47c4-946c-6b22b783743c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":262,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fc29f1f5-4122-454e-a8f5-20ba1c495f52","blendMode":0,"displayName":"default","isLocked":false,"name":"fc29f1f5-4122-454e-a8f5-20ba1c495f52","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"682c23b4-9449-445d-8111-4b318bc34fc5","blendMode":0,"displayName":"default","isLocked":false,"name":"682c23b4-9449-445d-8111-4b318bc34fc5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"tile_ufoexterior",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4c3eead-f070-43fe-b535-1baa9a59d678","path":"sprites/tile_ufoexterior/tile_ufoexterior.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a5eab8b5-03ce-4ed3-bc84-f3512d84f63c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a81f07d8-1e0d-47c4-946c-6b22b783743c","path":"sprites/tile_ufoexterior/tile_ufoexterior.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f81d7a65-7452-4f5d-95a3-deb7a378de42","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

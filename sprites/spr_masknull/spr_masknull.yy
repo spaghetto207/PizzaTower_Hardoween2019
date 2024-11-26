@@ -11,9 +11,7 @@
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
-  "frames":[
-    {"$GMSpriteFrame":"","%Name":"f51d3f7a-fe51-408c-a41b-2c03be92febe","name":"f51d3f7a-fe51-408c-a41b-2c03be92febe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-  ],
+  "frames":[],
   "gridX":0,
   "gridY":0,
   "height":32,

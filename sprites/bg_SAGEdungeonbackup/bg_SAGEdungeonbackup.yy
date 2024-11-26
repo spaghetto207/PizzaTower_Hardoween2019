@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e3ce3dfe-a0b0-4855-b89a-7d95e05bf110","name":"e3ce3dfe-a0b0-4855-b89a-7d95e05bf110","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4303f116-2d4d-4303-b115-da10689ea670","name":"4303f116-2d4d-4303-b115-da10689ea670","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dda62854-6fe4-4f90-ba3d-8f471d46b3c8","name":"dda62854-6fe4-4f90-ba3d-8f471d46b3c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a753d4d4-0e28-4fdd-93e1-1fa011268839","name":"a753d4d4-0e28-4fdd-93e1-1fa011268839","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"369fcbb3-9d54-48f7-a8af-988ec774a63c","blendMode":0,"displayName":"default","isLocked":false,"name":"369fcbb3-9d54-48f7-a8af-988ec774a63c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8e2df0d9-ed3b-45c0-853d-77967cad9002","blendMode":0,"displayName":"default","isLocked":false,"name":"8e2df0d9-ed3b-45c0-853d-77967cad9002","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_SAGEdungeonbackup",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3ce3dfe-a0b0-4855-b89a-7d95e05bf110","path":"sprites/bg_SAGEdungeonbackup/bg_SAGEdungeonbackup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"48bf7022-d5b5-48d6-bf54-2eb97a348e49","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dda62854-6fe4-4f90-ba3d-8f471d46b3c8","path":"sprites/bg_SAGEdungeonbackup/bg_SAGEdungeonbackup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e1172896-0f8c-44b6-acf1-8af9743dba4c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4303f116-2d4d-4303-b115-da10689ea670","path":"sprites/bg_SAGEdungeonbackup/bg_SAGEdungeonbackup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d18b0c09-38dd-4e94-82be-ad04fb3bcb58","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a753d4d4-0e28-4fdd-93e1-1fa011268839","path":"sprites/bg_SAGEdungeonbackup/bg_SAGEdungeonbackup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eb29897e-113a-4c98-8028-b4ceca6c94e3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

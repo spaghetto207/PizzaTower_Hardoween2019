@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4403d6d0-1b2b-4fcb-9683-89de3ff8594e","name":"4403d6d0-1b2b-4fcb-9683-89de3ff8594e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"43113cf9-17bf-4772-9af2-ab85a70bed30","name":"43113cf9-17bf-4772-9af2-ab85a70bed30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b85b66f7-5fea-46b0-b32f-a5795172a908","blendMode":0,"displayName":"default","isLocked":false,"name":"b85b66f7-5fea-46b0-b32f-a5795172a908","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f8a2795b-afcf-4e5f-a60b-e88f1d85efaa","blendMode":0,"displayName":"default","isLocked":false,"name":"f8a2795b-afcf-4e5f-a60b-e88f1d85efaa","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_dungeonskeleton2",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4403d6d0-1b2b-4fcb-9683-89de3ff8594e","path":"sprites/bg_dungeonskeleton2/bg_dungeonskeleton2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"81775763-fba4-4e98-a2ed-2431e14fd963","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43113cf9-17bf-4772-9af2-ab85a70bed30","path":"sprites/bg_dungeonskeleton2/bg_dungeonskeleton2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ca4f6620-a36a-4cca-ae31-6b8c01d8a27e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

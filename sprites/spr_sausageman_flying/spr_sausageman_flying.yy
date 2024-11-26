@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e1c22096-6f30-485d-8354-24262346c184","name":"e1c22096-6f30-485d-8354-24262346c184","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"166f6742-3b15-43f6-853d-61b81f59a4a1","name":"166f6742-3b15-43f6-853d-61b81f59a4a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ac5a2e26-dc59-4f24-9ccb-67752f6a1a61","name":"ac5a2e26-dc59-4f24-9ccb-67752f6a1a61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a689dc02-1cc1-4c83-b741-4a52a975692a","name":"a689dc02-1cc1-4c83-b741-4a52a975692a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"87321ead-2a07-4d0d-bce5-03daa5d4f8e0","blendMode":0,"displayName":"default","isLocked":false,"name":"87321ead-2a07-4d0d-bce5-03daa5d4f8e0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b4dc494c-926a-4993-9444-be52de8f612f","blendMode":0,"displayName":"default","isLocked":false,"name":"b4dc494c-926a-4993-9444-be52de8f612f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_sausageman_flying",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1c22096-6f30-485d-8354-24262346c184","path":"sprites/spr_sausageman_flying/spr_sausageman_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ff5689a3-95d4-4928-bde6-598707d5c355","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac5a2e26-dc59-4f24-9ccb-67752f6a1a61","path":"sprites/spr_sausageman_flying/spr_sausageman_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7294fdfb-f124-4c24-a148-72c9db67fef8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"166f6742-3b15-43f6-853d-61b81f59a4a1","path":"sprites/spr_sausageman_flying/spr_sausageman_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"85e8aa35-425b-472e-86f8-2bd21b6a8382","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a689dc02-1cc1-4c83-b741-4a52a975692a","path":"sprites/spr_sausageman_flying/spr_sausageman_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e7d1e3a2-3b24-406d-baf2-ba1f8837c830","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

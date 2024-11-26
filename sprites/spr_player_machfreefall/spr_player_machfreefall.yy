@@ -12,19 +12,19 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4e53f55f-c610-42b5-b933-08abc94a9af7","name":"4e53f55f-c610-42b5-b933-08abc94a9af7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"858cc8b3-6e29-4f90-8e68-e31a77fd7ed2","name":"858cc8b3-6e29-4f90-8e68-e31a77fd7ed2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"699965cd-b5b4-40bb-8039-2df7623a7d85","name":"699965cd-b5b4-40bb-8039-2df7623a7d85","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f0215e01-d206-4f3f-bc12-179b460dfa9a","name":"f0215e01-d206-4f3f-bc12-179b460dfa9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"70ee2c6e-6be1-49ee-900c-755da9095c60","name":"70ee2c6e-6be1-49ee-900c-755da9095c60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"598e2d38-78f0-4138-b952-7b2ba1d28a70","name":"598e2d38-78f0-4138-b952-7b2ba1d28a70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9b37a02b-83b6-40bb-896c-e27a7eac1558","name":"9b37a02b-83b6-40bb-896c-e27a7eac1558","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0c58d266-1067-48f8-9671-5a9780cfbfc1","name":"0c58d266-1067-48f8-9671-5a9780cfbfc1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d0459ff7-643c-4403-b0a8-e34a220730a3","name":"d0459ff7-643c-4403-b0a8-e34a220730a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3ffadb14-563c-403d-a367-f535d15e59a6","name":"3ffadb14-563c-403d-a367-f535d15e59a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"987b1128-d754-4963-920c-f9dd70354700","name":"987b1128-d754-4963-920c-f9dd70354700","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6f128a72-7349-4f39-a596-47be46c87636","name":"6f128a72-7349-4f39-a596-47be46c87636","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c52b6701-2539-4efd-a131-c4d048c57ab4","blendMode":0,"displayName":"default","isLocked":false,"name":"c52b6701-2539-4efd-a131-c4d048c57ab4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4f3a2350-560c-4ca2-b8ae-387a509cc2ed","blendMode":0,"displayName":"default","isLocked":false,"name":"4f3a2350-560c-4ca2-b8ae-387a509cc2ed","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_player_machfreefall",
   "nineSlice":null,
@@ -74,23 +74,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4e53f55f-c610-42b5-b933-08abc94a9af7","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"28b186a0-e49d-4736-a7d6-7bd4b1b3b22a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b37a02b-83b6-40bb-896c-e27a7eac1558","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"633336a4-4d77-4762-8eff-a02a81855ca7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"858cc8b3-6e29-4f90-8e68-e31a77fd7ed2","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3b4723f8-271e-40d5-a4de-00323d56fc5e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c58d266-1067-48f8-9671-5a9780cfbfc1","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c421c9ea-72cb-4121-ae8c-6899c8210a24","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"699965cd-b5b4-40bb-8039-2df7623a7d85","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1228f117-b8ec-4877-8217-a733cc31431d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d0459ff7-643c-4403-b0a8-e34a220730a3","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2c346073-47da-4fd6-8237-38872443f7c8","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0215e01-d206-4f3f-bc12-179b460dfa9a","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fec7917e-efed-4936-b8ca-f25ae699675f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ffadb14-563c-403d-a367-f535d15e59a6","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"128390fd-1e8e-4bd7-8808-e15f2727246a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"70ee2c6e-6be1-49ee-900c-755da9095c60","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"13a5f572-fe72-47c8-aa84-2245cad5a5ce","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"987b1128-d754-4963-920c-f9dd70354700","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bfb25128-7f3a-44b8-8575-037898f8f630","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"598e2d38-78f0-4138-b952-7b2ba1d28a70","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"41a31d18-6309-461b-a785-96a9b45f779a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6f128a72-7349-4f39-a596-47be46c87636","path":"sprites/spr_player_machfreefall/spr_player_machfreefall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6134da77-3b14-4489-8ec3-c247a2fe4868","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

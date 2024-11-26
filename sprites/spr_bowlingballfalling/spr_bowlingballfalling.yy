@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e4d1467a-d436-43fc-aedd-eecf67a4edb9","name":"e4d1467a-d436-43fc-aedd-eecf67a4edb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"afaec97f-d2aa-4612-9712-4fd36d0bf5bf","name":"afaec97f-d2aa-4612-9712-4fd36d0bf5bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"46a71008-1bbf-498e-8396-15b1b428351b","name":"46a71008-1bbf-498e-8396-15b1b428351b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"64a88a72-89ef-4231-9020-52ac705e1240","name":"64a88a72-89ef-4231-9020-52ac705e1240","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2e9cebf4-5e83-4cb7-938e-5c637aec4e63","name":"2e9cebf4-5e83-4cb7-938e-5c637aec4e63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"23d0c967-ed1e-45d6-951d-93f911aa2906","name":"23d0c967-ed1e-45d6-951d-93f911aa2906","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3301a3d3-b41f-4ac0-b807-b5aa658da0ce","blendMode":0,"displayName":"default","isLocked":false,"name":"3301a3d3-b41f-4ac0-b807-b5aa658da0ce","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"041cbb2d-255d-44fb-94cd-ce9ffb4d46fe","blendMode":0,"displayName":"default","isLocked":false,"name":"041cbb2d-255d-44fb-94cd-ce9ffb4d46fe","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_bowlingballfalling",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4d1467a-d436-43fc-aedd-eecf67a4edb9","path":"sprites/spr_bowlingballfalling/spr_bowlingballfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"78b459cc-a9ce-4533-809c-79afcc7e8502","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64a88a72-89ef-4231-9020-52ac705e1240","path":"sprites/spr_bowlingballfalling/spr_bowlingballfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4943662d-7194-4821-8ff4-bc4f0867ccc0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"afaec97f-d2aa-4612-9712-4fd36d0bf5bf","path":"sprites/spr_bowlingballfalling/spr_bowlingballfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a8ffa214-9855-425e-95a0-968b582085f8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2e9cebf4-5e83-4cb7-938e-5c637aec4e63","path":"sprites/spr_bowlingballfalling/spr_bowlingballfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"602a9b29-41d6-4df7-913c-a7bf10ce2b24","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46a71008-1bbf-498e-8396-15b1b428351b","path":"sprites/spr_bowlingballfalling/spr_bowlingballfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e70fe3fd-bede-455d-9067-098f5950c885","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"23d0c967-ed1e-45d6-951d-93f911aa2906","path":"sprites/spr_bowlingballfalling/spr_bowlingballfalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6e7ad6d0-0d78-430b-9a2e-2e50f03c88e3","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

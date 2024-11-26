@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"43d71dec-8d3f-4715-aa6a-0982341854b0","name":"43d71dec-8d3f-4715-aa6a-0982341854b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9d79b641-449b-4567-b37e-1cc21c51780d","name":"9d79b641-449b-4567-b37e-1cc21c51780d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"92a8b32d-32d6-447c-9012-5d126b5db6b8","name":"92a8b32d-32d6-447c-9012-5d126b5db6b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a3674c4a-c0fe-44a2-bebb-d7cb8e77073e","name":"a3674c4a-c0fe-44a2-bebb-d7cb8e77073e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"168c3438-a86c-43ab-bd0b-ae2b19c09e15","name":"168c3438-a86c-43ab-bd0b-ae2b19c09e15","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"76080479-0677-408e-8bc6-0fe98ed348d3","name":"76080479-0677-408e-8bc6-0fe98ed348d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e3f4d882-b277-4e8f-b3f0-440606e90024","blendMode":0,"displayName":"default","isLocked":false,"name":"e3f4d882-b277-4e8f-b3f0-440606e90024","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f97041de-474e-4f21-946d-3768c026ffc0","blendMode":0,"displayName":"default","isLocked":false,"name":"f97041de-474e-4f21-946d-3768c026ffc0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cigar_fall",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43d71dec-8d3f-4715-aa6a-0982341854b0","path":"sprites/spr_cigar_fall/spr_cigar_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"69e134bf-6ff4-4b8a-bac1-181a46d77f9e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3674c4a-c0fe-44a2-bebb-d7cb8e77073e","path":"sprites/spr_cigar_fall/spr_cigar_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"26cbcea0-5276-4543-83c1-62a9b762facc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d79b641-449b-4567-b37e-1cc21c51780d","path":"sprites/spr_cigar_fall/spr_cigar_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1deccc24-7397-4de3-873b-a975567b1ebd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"168c3438-a86c-43ab-bd0b-ae2b19c09e15","path":"sprites/spr_cigar_fall/spr_cigar_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4d71dfd6-465a-4e6f-a03e-f4076d937cd5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"92a8b32d-32d6-447c-9012-5d126b5db6b8","path":"sprites/spr_cigar_fall/spr_cigar_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6b7642e2-23b1-41f5-bc51-ef7bde088f6b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"76080479-0677-408e-8bc6-0fe98ed348d3","path":"sprites/spr_cigar_fall/spr_cigar_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ef2f3ebd-0cd9-403a-bee9-4dc98fb69566","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
