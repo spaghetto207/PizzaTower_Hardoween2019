@@ -32,3 +32,14 @@ spr_dead = spr_anchodead;
 important = 0;
 heavy = 0;
 depth = 0;
+
+/*
+	the anchovy will not be grabbed by the player
+	i dont know how to fix this as ive tried debugging
+	and cant figure out where it even happens,
+	the player's state just resets for some reason.
+	this happens ONLY on the anchovy, and it pisses me off
+	
+	so im going to try to brute force fix it for now
+*/
+ancho_grabbed = false;

@@ -9,12 +9,10 @@ if (ds_list_find_index(global.baddieroom, id) == -1 && important == 0)
     
     scr_soundeffect(sfx_killenemy);
     scr_sleep(50);
-    instance_create(x, y, obj_slapstar);
-    instance_create(x, y, obj_slapstar);
-    instance_create(x, y, obj_slapstar);
-    instance_create(x, y, obj_baddiegibs);
-    instance_create(x, y, obj_baddiegibs);
-    instance_create(x, y, obj_baddiegibs);
+	repeat (3)
+		instance_create(x, y, obj_slapstar);
+	repeat (3)
+		instance_create(x, y, obj_baddiegibs);
     
     with (obj_camera)
     {
@@ -25,8 +23,11 @@ if (ds_list_find_index(global.baddieroom, id) == -1 && important == 0)
     with (instance_create(x, y, obj_sausageman_dead))
     {
         sprite_index = other.spr_dead;
-        spr_palette = other.spr_palette;
-        paletteselect = other.paletteselect;
+		if (variable_instance_exists(other.id, "spr_palette"))
+		{
+	        spr_palette = other.spr_palette;
+	        paletteselect = other.paletteselect;
+		}
     }
     
     ds_list_add(global.baddieroom, id);
@@ -73,12 +74,10 @@ if (ds_list_find_index(global.baddieroom, id) == -1 && important == 0)
 else if (ds_list_find_index(global.baddieroom, id) == -1 && important == 1)
 {
     scr_sleep(50);
-    instance_create(x, y, obj_slapstar);
-    instance_create(x, y, obj_slapstar);
-    instance_create(x, y, obj_slapstar);
-    instance_create(x, y, obj_baddiegibs);
-    instance_create(x, y, obj_baddiegibs);
-    instance_create(x, y, obj_baddiegibs);
+	repeat (3)
+		instance_create(x, y, obj_slapstar);
+	repeat (3)
+		instance_create(x, y, obj_baddiegibs);
     
     with (obj_camera)
     {
