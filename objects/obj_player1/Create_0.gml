@@ -1,3 +1,9 @@
+if (instance_number(object_index) > 1)
+{
+    instance_destroy();
+    exit;
+}
+
 scr_initinput();
 global.saveroom = ds_list_create();
 grav = 0.5;

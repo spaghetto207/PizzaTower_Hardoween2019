@@ -88,7 +88,10 @@ else if (ds_list_find_index(global.baddieroom, id) == -1 && important == 1)
     with (instance_create(x, y, obj_sausageman_dead))
     {
         sprite_index = other.spr_dead;
-        spr_palette = other.spr_palette;
-        paletteselect = other.paletteselect;
+		if (variable_instance_exists(other.id, "spr_palette"))
+		{
+	        spr_palette = other.spr_palette;
+	        paletteselect = other.paletteselect;
+		}
     }
 }

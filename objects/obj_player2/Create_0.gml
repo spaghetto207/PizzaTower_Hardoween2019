@@ -1,3 +1,9 @@
+if (instance_number(object_index) > 1)
+{
+    instance_destroy();
+    exit;
+}
+
 scr_initinput2();
 grav = 0.5;
 hsp = 0;
