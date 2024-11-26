@@ -4,6 +4,14 @@ if (obj_player.character == "S")
 if (x != obj_player1.x)
     image_xscale = -sign(x - obj_player1.x);
 
+if (room != halloween_entrance)
+{
+	if (global.medievalrank != "none" && global.ruinrank != "none" && global.dungeonrank != "none" && global.snickchallengerank == "none")
+		sprite_index = spr_snick_exe;	
+}
+else
+	sprite_index = spr_snicknpc_idle_sheets;
+
 if (place_meeting(x, y, obj_player))
 {
     with (obj_player)
@@ -89,9 +97,6 @@ if (place_meeting(x, y, obj_player))
 	}
 	else
 	{
-		if (global.medievalrank != "none" && global.ruinrank != "none" && global.dungeonrank != "none" && global.snickchallengerank == "none")
-		    sprite_index = spr_snick_exe;
-    
 	    with (obj_tv)
 	    {
 	        if (global.medievalrank == "none" && global.ruinrank == "none" && global.dungeonrank == "none")

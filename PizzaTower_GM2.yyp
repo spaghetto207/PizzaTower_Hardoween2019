@@ -187,6 +187,7 @@
   "resources":[
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},},
     {"id":{"name":"font1","path":"fonts/font1/font1.yy",},},
+    {"id":{"name":"font2","path":"fonts/font2/font2.yy",},},
     {"id":{"name":"obj_100","path":"objects/obj_100/obj_100.yy",},},
     {"id":{"name":"obj_20","path":"objects/obj_20/obj_20.yy",},},
     {"id":{"name":"obj_40","path":"objects/obj_40/obj_40.yy",},},
@@ -264,6 +265,7 @@
     {"id":{"name":"obj_dashpad","path":"objects/obj_dashpad/obj_dashpad.yy",},},
     {"id":{"name":"obj_daynight","path":"objects/obj_daynight/obj_daynight.yy",},},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
+    {"id":{"name":"obj_debugcontroller","path":"objects/obj_debugcontroller/obj_debugcontroller.yy",},},
     {"id":{"name":"obj_desertdestroyable","path":"objects/obj_desertdestroyable/obj_desertdestroyable.yy",},},
     {"id":{"name":"obj_destroyable","path":"objects/obj_destroyable/obj_destroyable.yy",},},
     {"id":{"name":"obj_destroyable2_big","path":"objects/obj_destroyable2_big/obj_destroyable2_big.yy",},},
@@ -2371,6 +2373,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Realtitlescreen","path":"rooms/Realtitlescreen/Realtitlescreen.yy",},},
     {"roomId":{"name":"halloween_entrance","path":"rooms/halloween_entrance/halloween_entrance.yy",},},
     {"roomId":{"name":"chateau_1","path":"rooms/chateau_1/chateau_1.yy",},},
     {"roomId":{"name":"chateau_secret1","path":"rooms/chateau_secret1/chateau_secret1.yy",},},
@@ -2390,7 +2393,6 @@
     {"roomId":{"name":"chateau_9","path":"rooms/chateau_9/chateau_9.yy",},},
     {"roomId":{"name":"chateau_secret6","path":"rooms/chateau_secret6/chateau_secret6.yy",},},
     {"roomId":{"name":"chateau_10","path":"rooms/chateau_10/chateau_10.yy",},},
-    {"roomId":{"name":"Realtitlescreen","path":"rooms/Realtitlescreen/Realtitlescreen.yy",},},
     {"roomId":{"name":"Scootertransition","path":"rooms/Scootertransition/Scootertransition.yy",},},
     {"roomId":{"name":"leveltransitioncutscene","path":"rooms/leveltransitioncutscene/leveltransitioncutscene.yy",},},
     {"roomId":{"name":"Titlescreen","path":"rooms/Titlescreen/Titlescreen.yy",},},

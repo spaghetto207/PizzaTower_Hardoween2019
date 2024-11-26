@@ -27,6 +27,7 @@
   "ResourceOrderSettings":[
     {"name":"font0","order":796,"path":"fonts/font0/font0.yy",},
     {"name":"font1","order":797,"path":"fonts/font1/font1.yy",},
+    {"name":"font2","order":798,"path":"fonts/font2/font2.yy",},
     {"name":"obj_100","order":14,"path":"objects/obj_100/obj_100.yy",},
     {"name":"obj_20","order":17,"path":"objects/obj_20/obj_20.yy",},
     {"name":"obj_40","order":16,"path":"objects/obj_40/obj_40.yy",},
@@ -102,6 +103,7 @@
     {"name":"obj_dashpad","order":1,"path":"objects/obj_dashpad/obj_dashpad.yy",},
     {"name":"obj_daynight","order":277,"path":"objects/obj_daynight/obj_daynight.yy",},
     {"name":"obj_debris","order":229,"path":"objects/obj_debris/obj_debris.yy",},
+    {"name":"obj_debugcontroller","order":19,"path":"objects/obj_debugcontroller/obj_debugcontroller.yy",},
     {"name":"obj_desertdestroyable","order":5,"path":"objects/obj_desertdestroyable/obj_desertdestroyable.yy",},
     {"name":"obj_destroyable","order":2,"path":"objects/obj_destroyable/obj_destroyable.yy",},
     {"name":"obj_destroyable2_big","order":14,"path":"objects/obj_destroyable2_big/obj_destroyable2_big.yy",},

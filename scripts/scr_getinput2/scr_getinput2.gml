@@ -1,5 +1,8 @@
 function scr_getinput2()
-{
+{	
+    if (instance_exists(obj_debugcontroller) && obj_debugcontroller.active)
+        exit;
+	
 	key_up = keyboard_check(ord("W"));
 	key_up2 = keyboard_check_pressed(ord("W"));
 	key_right = keyboard_check(ord("D"));

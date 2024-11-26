@@ -130,7 +130,7 @@
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
           -93,59,-21,49,-9,59,-21,49,-9,59,-2,49,4,77,65,65,79,-15,49,-9,59,-2,49,4,87,0,0,89,-3,49,4,77,65,65,
           79,-8,49,-9,59,-2,49,4,87,0,0,89,-3,49,4,56,0,0,54,-8,49,-9,59,-2,49,4,87,0,0,89,-3,49,4,56,0,0,54,-8,
-          49,-9,59,-2,49,11,87,0,0,78,78,79,49,56,0,0,54,-8,49,-9,59,-2,49,1,87,-4,0,6,54,49,56,0,0,54,-8,49,-9,
+          49,-9,59,-2,49,11,87,0,0,64,78,79,49,56,0,0,54,-8,49,-9,59,-2,49,1,87,-4,0,6,54,49,56,0,0,54,-8,49,-9,
           59,-2,49,1,87,-4,0,6,54,49,56,0,0,54,-8,49,-9,59,-2,49,1,97,-4,45,6,99,49,97,45,45,99,-8,49,-9,59,-21,
           49,-96,59,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tileset_secret","path":"tilesets/tileset_secret/tileset_secret.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

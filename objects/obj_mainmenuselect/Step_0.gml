@@ -1,5 +1,7 @@
 var lay_id, back_id;
 
+event_order;
+
 if (selected == 0)
 {
     if (keyboard_check_pressed(vk_f5))

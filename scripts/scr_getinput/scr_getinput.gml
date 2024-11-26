@@ -1,5 +1,8 @@
 function scr_getinput()
 {
+	if (instance_exists(obj_debugcontroller) && obj_debugcontroller.active)
+        exit;
+	
 	gamepad_set_axis_deadzone(0, 0.4);
 	key_up = keyboard_check(global.key_up) || gamepad_button_check(0, global.key_upC) || gamepad_axis_value(0, gp_axislv) < 0;
 	key_up2 = keyboard_check_pressed(global.key_up) || gamepad_button_check_pressed(0, global.key_upC) || (gamepad_axis_value(0, gp_axislv) < -0.5 && stickpressed == 0);
