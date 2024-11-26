@@ -137,7 +137,17 @@ PANIC = new DebugCommand("panic", "Toggles pizza time", "panic <minutes> <second
     global.panic = !global.panic;
     
     if (global.panic)
-        obj_camera.alarm[1] = 60;
+    {
+	    scr_soundeffect(sfx_escaperumble);
+		obj_camera.alarm[1] = 60;
+	    global.wave = 0;
+	    global.maxwave = ((global.minutes * 60) + global.seconds) * 60;
+    
+	    if (global.panicbg)
+	        scr_panicbg_init();
+	}
+	else
+		scr_panicbg_end();
 });
 SHOW_COLLISIONS = new DebugCommand("showcollisions", "Shows the collisions", "showcollisions <bool>", function(argument0)
 {
@@ -297,6 +307,9 @@ function get_number_string(argument0)
     
     n = argument0;
     
+	if (n == "")
+		return 0;
+	
     if (is_string(argument0))
     {
         n = real(string_digits(argument0));
