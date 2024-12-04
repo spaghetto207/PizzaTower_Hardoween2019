@@ -11,5 +11,5 @@
 - Fixed State names (state = 0 is now state = states.normal)
 
 # Notes
-- This is still a **Work in progress**, allthough working without gamebreaking issues.
+- This kind of sucks, code-wise.
 - Some code still needs tyding up, and feel free to make a pull request.
